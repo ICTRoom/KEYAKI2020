@@ -2767,7 +2767,7 @@
                 rel="nofollow noopener noreferrer" rel="author">
                 <i class="fa fa-twitter"></i>
               </a>
-              <a class="sns_btn btn_email" href="#footer" rel="author">
+              <a class="sns_btn btn_email" href="ictroom@hiroogakuen.com" rel="author">
                 <i class="fa fa-envelope"></i>
               </a>
             </div>
@@ -2990,7 +2990,7 @@
               }
             } else {
               if (day == 3) {
-                if (hour < 9) {
+                if (hour > 9.5) {
                   var title = "けやき祭まで";
                   var whole = Number(9 * 60 * 60);
                   var time = Number(
@@ -3013,7 +3013,7 @@
                   }
                 } else {
                   var title = "けやき祭終了まで";
-                  var whole = Number(15 * 60 * 60 + 15 * 60 * 60);
+                  var whole = Number(5.5 * 60 * 60 + 15 * 60 * 60);
                   var time = Number(hour * 60 * 60 + min * 60 + sec);
                   var day_now = 1;
                   var hour_now = Math.floor(
