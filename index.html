@@ -15,11 +15,31 @@
   <script>
     (function (d) {
       var config = {
-        kitId: 'aeo1mkv',
-        scriptTimeout: 3000,
-        async: true
-      },
-        h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+          kitId: 'aeo1mkv',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h = d.documentElement,
+        t = setTimeout(function () {
+          h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+        }, config.scriptTimeout),
+        tk = d.createElement("script"),
+        f = false,
+        s = d.getElementsByTagName("script")[0],
+        a;
+      h.className += " wf-loading";
+      tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+      tk.async = true;
+      tk.onload = tk.onreadystatechange = function () {
+        a = this.readyState;
+        if (f || a && a != "complete" && a != "loaded") return;
+        f = true;
+        clearTimeout(t);
+        try {
+          Typekit.load(config)
+        } catch (e) {}
+      };
+      s.parentNode.insertBefore(tk, s)
     })(document);
   </script>
 </head>
@@ -31,2584 +51,2530 @@
  * MIT license (https://opensource.org/licenses/MIT)
  * W. https://svgartista.net
  **************************************************/
-/*タイトル*/
-@-webkit-keyframes animate-svg-stroke-1 {
-  0% {
-    stroke-dashoffset: 106.38550567626953px;
-    stroke-dasharray: 106.38550567626953px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-1 {
-  0% {
-    stroke-dashoffset: 106.38550567626953px;
-    stroke-dasharray: 106.38550567626953px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-.svg-elem-1 {
-  -webkit-animation: animate-svg-stroke-1 1s cubic-bezier(0.47, 0, 0.745, 0.715)
-      0s both,
-    animate-svg-fill-1 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.8s both;
-  animation: animate-svg-stroke-1 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s both,
-    animate-svg-fill-1 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.8s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-2 {
-  0% {
-    stroke-dashoffset: 163.2914276123047px;
-    stroke-dasharray: 163.2914276123047px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-2 {
-  0% {
-    stroke-dashoffset: 163.2914276123047px;
-    stroke-dasharray: 163.2914276123047px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-.svg-elem-2 {
-  -webkit-animation: animate-svg-stroke-2 1s cubic-bezier(0.47, 0, 0.745, 0.715)
-      0.12s both,
-    animate-svg-fill-2 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.9s both;
-  animation: animate-svg-stroke-2 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.12s
-      both,
-    animate-svg-fill-2 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.9s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-3 {
-  0% {
-    stroke-dashoffset: 220.99375915527344px;
-    stroke-dasharray: 220.99375915527344px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-3 {
-  0% {
-    stroke-dashoffset: 220.99375915527344px;
-    stroke-dasharray: 220.99375915527344px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-.svg-elem-3 {
-  -webkit-animation: animate-svg-stroke-3 1s cubic-bezier(0.47, 0, 0.745, 0.715)
-      0.24s both,
-    animate-svg-fill-3 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1s both;
-  animation: animate-svg-stroke-3 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.24s
-      both,
-    animate-svg-fill-3 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-4 {
-  0% {
-    stroke-dashoffset: 233.74855042003906px;
-    stroke-dasharray: 233.74855042003906px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-4 {
-  0% {
-    stroke-dashoffset: 233.74855042003906px;
-    stroke-dasharray: 233.74855042003906px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-.svg-elem-4 {
-  -webkit-animation: animate-svg-stroke-4 1s cubic-bezier(0.47, 0, 0.745, 0.715)
-      0.36s both,
-    animate-svg-fill-4 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.1s both;
-  animation: animate-svg-stroke-4 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.36s
-      both,
-    animate-svg-fill-4 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.1s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-5 {
-  0% {
-    stroke-dashoffset: 160.83750915527344px;
-    stroke-dasharray: 160.83750915527344px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-5 {
-  0% {
-    stroke-dashoffset: 160.83750915527344px;
-    stroke-dasharray: 160.83750915527344px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-.svg-elem-5 {
-  -webkit-animation: animate-svg-stroke-5 1s cubic-bezier(0.47, 0, 0.745, 0.715)
-      0.48s both,
-    animate-svg-fill-5 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
-      1.2000000000000002s both;
-  animation: animate-svg-stroke-5 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.48s
-      both,
-    animate-svg-fill-5 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
-      1.2000000000000002s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-6 {
-  0% {
-    stroke-dashoffset: 208.7154998779297px;
-    stroke-dasharray: 208.7154998779297px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-6 {
-  0% {
-    stroke-dashoffset: 208.7154998779297px;
-    stroke-dasharray: 208.7154998779297px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-.svg-elem-6 {
-  -webkit-animation: animate-svg-stroke-6 1s cubic-bezier(0.47, 0, 0.745, 0.715)
-      0.6s both,
-    animate-svg-fill-6 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.3s both;
-  animation: animate-svg-stroke-6 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.6s
-      both,
-    animate-svg-fill-6 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.3s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-7 {
-  0% {
-    stroke-dashoffset: 220.94607543945312px;
-    stroke-dasharray: 220.94607543945312px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-7 {
-  0% {
-    stroke-dashoffset: 220.94607543945312px;
-    stroke-dasharray: 220.94607543945312px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-.svg-elem-7 {
-  -webkit-animation: animate-svg-stroke-7 1s cubic-bezier(0.47, 0, 0.745, 0.715)
-      0.72s both,
-    animate-svg-fill-7 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
-      1.4000000000000001s both;
-  animation: animate-svg-stroke-7 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.72s
-      both,
-    animate-svg-fill-7 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
-      1.4000000000000001s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-8 {
-  0% {
-    stroke-dashoffset: 152.4971923828125px;
-    stroke-dasharray: 152.4971923828125px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-8 {
-  0% {
-    stroke-dashoffset: 152.4971923828125px;
-    stroke-dasharray: 152.4971923828125px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-.svg-elem-8 {
-  -webkit-animation: animate-svg-stroke-8 1s cubic-bezier(0.47, 0, 0.745, 0.715)
-      0.84s both,
-    animate-svg-fill-8 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.5s both;
-  animation: animate-svg-stroke-8 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.84s
-      both,
-    animate-svg-fill-8 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.5s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-9 {
-  0% {
-    stroke-dashoffset: 209.07864379882812px;
-    stroke-dasharray: 209.07864379882812px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-9 {
-  0% {
-    stroke-dashoffset: 209.07864379882812px;
-    stroke-dasharray: 209.07864379882812px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-.svg-elem-9 {
-  -webkit-animation: animate-svg-stroke-9 1s cubic-bezier(0.47, 0, 0.745, 0.715)
-      0.96s both,
-    animate-svg-fill-9 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.6s both;
-  animation: animate-svg-stroke-9 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.96s
-      both,
-    animate-svg-fill-9 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.6s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-10 {
-  0% {
-    stroke-dashoffset: 212.80426025390625px;
-    stroke-dasharray: 212.80426025390625px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-10 {
-  0% {
-    stroke-dashoffset: 212.80426025390625px;
-    stroke-dasharray: 212.80426025390625px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-.svg-elem-10 {
-  -webkit-animation: animate-svg-stroke-10 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 1.08s both,
-    animate-svg-fill-10 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
-      1.7000000000000002s both;
-  animation: animate-svg-stroke-10 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.08s
-      both,
-    animate-svg-fill-10 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
-      1.7000000000000002s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-11 {
-  0% {
-    stroke-dashoffset: 208.98985290527344px;
-    stroke-dasharray: 208.98985290527344px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-11 {
-  0% {
-    stroke-dashoffset: 208.98985290527344px;
-    stroke-dasharray: 208.98985290527344px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-.svg-elem-11 {
-  -webkit-animation: animate-svg-stroke-11 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 1.2s both,
-    animate-svg-fill-11 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.8s both;
-  animation: animate-svg-stroke-11 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2s
-      both,
-    animate-svg-fill-11 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.8s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-12 {
-  0% {
-    stroke-dashoffset: 212.800048828125px;
-    stroke-dasharray: 212.800048828125px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-12 {
-  0% {
-    stroke-dashoffset: 212.800048828125px;
-    stroke-dasharray: 212.800048828125px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-.svg-elem-12 {
-  -webkit-animation: animate-svg-stroke-12 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 1.3199999999999998s both,
-    animate-svg-fill-12 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
-      1.9000000000000001s both;
-  animation: animate-svg-stroke-12 1s cubic-bezier(0.47, 0, 0.745, 0.715)
-      1.3199999999999998s both,
-    animate-svg-fill-12 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
-      1.9000000000000001s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-13 {
-  0% {
-    stroke-dashoffset: 160.8375244140625px;
-    stroke-dasharray: 160.8375244140625px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-13 {
-  0% {
-    stroke-dashoffset: 160.8375244140625px;
-    stroke-dasharray: 160.8375244140625px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@-webkit-keyframes animate-svg-fill-13 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-@keyframes animate-svg-fill-13 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-.svg-elem-13 {
-  -webkit-animation: animate-svg-stroke-13 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 1.44s both,
-    animate-svg-fill-13 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2s both;
-  animation: animate-svg-stroke-13 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.44s
-      both,
-    animate-svg-fill-13 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-14 {
-  0% {
-    stroke-dashoffset: 208.71559143066406px;
-    stroke-dasharray: 208.71559143066406px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-14 {
-  0% {
-    stroke-dashoffset: 208.71559143066406px;
-    stroke-dasharray: 208.71559143066406px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@-webkit-keyframes animate-svg-fill-14 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-@keyframes animate-svg-fill-14 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-.svg-elem-14 {
-  -webkit-animation: animate-svg-stroke-14 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 1.56s both,
-    animate-svg-fill-14 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.1s both;
-  animation: animate-svg-stroke-14 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.56s
-      both,
-    animate-svg-fill-14 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.1s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-15 {
-  0% {
-    stroke-dashoffset: 220.9460906982422px;
-    stroke-dasharray: 220.9460906982422px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-15 {
-  0% {
-    stroke-dashoffset: 220.9460906982422px;
-    stroke-dasharray: 220.9460906982422px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@-webkit-keyframes animate-svg-fill-15 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-@keyframes animate-svg-fill-15 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-.svg-elem-15 {
-  -webkit-animation: animate-svg-stroke-15 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 1.68s both,
-    animate-svg-fill-15 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.2s both;
-  animation: animate-svg-stroke-15 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.68s
-      both,
-    animate-svg-fill-15 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.2s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-16 {
-  0% {
-    stroke-dashoffset: 152.49713134765625px;
-    stroke-dasharray: 152.49713134765625px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-16 {
-  0% {
-    stroke-dashoffset: 152.49713134765625px;
-    stroke-dasharray: 152.49713134765625px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@-webkit-keyframes animate-svg-fill-16 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-@keyframes animate-svg-fill-16 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-.svg-elem-16 {
-  -webkit-animation: animate-svg-stroke-16 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 1.7999999999999998s both,
-    animate-svg-fill-16 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.3s both;
-  animation: animate-svg-stroke-16 1s cubic-bezier(0.47, 0, 0.745, 0.715)
-      1.7999999999999998s both,
-    animate-svg-fill-16 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.3s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-17 {
-  0% {
-    stroke-dashoffset: 209.0786895751953px;
-    stroke-dasharray: 209.0786895751953px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-17 {
-  0% {
-    stroke-dashoffset: 209.0786895751953px;
-    stroke-dasharray: 209.0786895751953px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@-webkit-keyframes animate-svg-fill-17 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-@keyframes animate-svg-fill-17 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-.svg-elem-17 {
-  -webkit-animation: animate-svg-stroke-17 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 1.92s both,
-    animate-svg-fill-17 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
-      2.4000000000000004s both;
-  animation: animate-svg-stroke-17 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.92s
-      both,
-    animate-svg-fill-17 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
-      2.4000000000000004s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-18 {
-  0% {
-    stroke-dashoffset: 212.80430603027344px;
-    stroke-dasharray: 212.80430603027344px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-18 {
-  0% {
-    stroke-dashoffset: 212.80430603027344px;
-    stroke-dasharray: 212.80430603027344px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@-webkit-keyframes animate-svg-fill-18 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-@keyframes animate-svg-fill-18 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-.svg-elem-18 {
-  -webkit-animation: animate-svg-stroke-18 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 2.04s both,
-    animate-svg-fill-18 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.5s both;
-  animation: animate-svg-stroke-18 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.04s
-      both,
-    animate-svg-fill-18 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.5s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-19 {
-  0% {
-    stroke-dashoffset: 208.98980712890625px;
-    stroke-dasharray: 208.98980712890625px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-19 {
-  0% {
-    stroke-dashoffset: 208.98980712890625px;
-    stroke-dasharray: 208.98980712890625px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@-webkit-keyframes animate-svg-fill-19 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-@keyframes animate-svg-fill-19 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-.svg-elem-19 {
-  -webkit-animation: animate-svg-stroke-19 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 2.16s both,
-    animate-svg-fill-19 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.6s both;
-  animation: animate-svg-stroke-19 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.16s
-      both,
-    animate-svg-fill-19 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.6s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-20 {
-  0% {
-    stroke-dashoffset: 212.8000946044922px;
-    stroke-dasharray: 212.8000946044922px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-20 {
-  0% {
-    stroke-dashoffset: 212.8000946044922px;
-    stroke-dasharray: 212.8000946044922px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@-webkit-keyframes animate-svg-fill-20 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-@keyframes animate-svg-fill-20 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-.svg-elem-20 {
-  -webkit-animation: animate-svg-stroke-20 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 2.28s both,
-    animate-svg-fill-20 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.7s both;
-  animation: animate-svg-stroke-20 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.28s
-      both,
-    animate-svg-fill-20 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.7s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-21 {
-  0% {
-    stroke-dashoffset: 106.40157318115234px;
-    stroke-dasharray: 106.40157318115234px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-21 {
-  0% {
-    stroke-dashoffset: 106.40157318115234px;
-    stroke-dasharray: 106.40157318115234px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@-webkit-keyframes animate-svg-fill-21 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-@keyframes animate-svg-fill-21 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-.svg-elem-21 {
-  -webkit-animation: animate-svg-stroke-21 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 2.4s both,
-    animate-svg-fill-21 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.8s both;
-  animation: animate-svg-stroke-21 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.4s
-      both,
-    animate-svg-fill-21 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.8s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-22 {
-  0% {
-    stroke-dashoffset: 163.2914581298828px;
-    stroke-dasharray: 163.2914581298828px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-22 {
-  0% {
-    stroke-dashoffset: 163.2914581298828px;
-    stroke-dasharray: 163.2914581298828px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@-webkit-keyframes animate-svg-fill-22 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-@keyframes animate-svg-fill-22 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-.svg-elem-22 {
-  -webkit-animation: animate-svg-stroke-22 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 2.52s both,
-    animate-svg-fill-22 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
-      2.9000000000000004s both;
-  animation: animate-svg-stroke-22 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.52s
-      both,
-    animate-svg-fill-22 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
-      2.9000000000000004s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-23 {
-  0% {
-    stroke-dashoffset: 220.99378967285156px;
-    stroke-dasharray: 220.99378967285156px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-23 {
-  0% {
-    stroke-dashoffset: 220.99378967285156px;
-    stroke-dasharray: 220.99378967285156px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@-webkit-keyframes animate-svg-fill-23 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-@keyframes animate-svg-fill-23 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-.svg-elem-23 {
-  -webkit-animation: animate-svg-stroke-23 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 2.6399999999999997s both,
-    animate-svg-fill-23 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3s both;
-  animation: animate-svg-stroke-23 1s cubic-bezier(0.47, 0, 0.745, 0.715)
-      2.6399999999999997s both,
-    animate-svg-fill-23 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-24 {
-  0% {
-    stroke-dashoffset: 233.74855042003906px;
-    stroke-dasharray: 233.74855042003906px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-24 {
-  0% {
-    stroke-dashoffset: 233.74855042003906px;
-    stroke-dasharray: 233.74855042003906px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@-webkit-keyframes animate-svg-fill-24 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-@keyframes animate-svg-fill-24 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-.svg-elem-24 {
-  -webkit-animation: animate-svg-stroke-24 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 2.76s both,
-    animate-svg-fill-24 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
-      3.1000000000000005s both;
-  animation: animate-svg-stroke-24 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.76s
-      both,
-    animate-svg-fill-24 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
-      3.1000000000000005s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-25 {
-  0% {
-    stroke-dashoffset: 152.4967498779297px;
-    stroke-dasharray: 152.4967498779297px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-25 {
-  0% {
-    stroke-dashoffset: 152.4967498779297px;
-    stroke-dasharray: 152.4967498779297px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-.svg-elem-25 {
-  -webkit-animation: animate-svg-stroke-25 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 2.88s both,
-    animate-svg-fill-25 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.2s both;
-  animation: animate-svg-stroke-25 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.88s
-      both,
-    animate-svg-fill-25 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.2s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-26 {
-  0% {
-    stroke-dashoffset: 202.41305541992188px;
-    stroke-dasharray: 202.41305541992188px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-26 {
-  0% {
-    stroke-dashoffset: 202.41305541992188px;
-    stroke-dasharray: 202.41305541992188px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-.svg-elem-26 {
-  -webkit-animation: animate-svg-stroke-26 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 3s both,
-    animate-svg-fill-26 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.3s both;
-  animation: animate-svg-stroke-26 1s cubic-bezier(0.47, 0, 0.745, 0.715) 3s
-      both,
-    animate-svg-fill-26 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.3s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-27 {
-  0% {
-    stroke-dashoffset: 161.55081176757812px;
-    stroke-dasharray: 161.55081176757812px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-27 {
-  0% {
-    stroke-dashoffset: 161.55081176757812px;
-    stroke-dasharray: 161.55081176757812px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-.svg-elem-27 {
-  -webkit-animation: animate-svg-stroke-27 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 3.12s both,
-    animate-svg-fill-27 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
-      3.4000000000000004s both;
-  animation: animate-svg-stroke-27 1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.12s
-      both,
-    animate-svg-fill-27 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
-      3.4000000000000004s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-28 {
-  0% {
-    stroke-dashoffset: 240.4404296875px;
-    stroke-dasharray: 240.4404296875px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-28 {
-  0% {
-    stroke-dashoffset: 240.4404296875px;
-    stroke-dasharray: 240.4404296875px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-.svg-elem-28 {
-  -webkit-animation: animate-svg-stroke-28 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 3.2399999999999998s both,
-    animate-svg-fill-28 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.5s both;
-  animation: animate-svg-stroke-28 1s cubic-bezier(0.47, 0, 0.745, 0.715)
-      3.2399999999999998s both,
-    animate-svg-fill-28 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.5s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-29 {
-  0% {
-    stroke-dashoffset: 160.76028442382812px;
-    stroke-dasharray: 160.76028442382812px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-29 {
-  0% {
-    stroke-dashoffset: 160.76028442382812px;
-    stroke-dasharray: 160.76028442382812px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-.svg-elem-29 {
-  -webkit-animation: animate-svg-stroke-29 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 3.36s both,
-    animate-svg-fill-29 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
-      3.6000000000000005s both;
-  animation: animate-svg-stroke-29 1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.36s
-      both,
-    animate-svg-fill-29 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
-      3.6000000000000005s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-30 {
-  0% {
-    stroke-dashoffset: 160.85691833496094px;
-    stroke-dasharray: 160.85691833496094px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-30 {
-  0% {
-    stroke-dashoffset: 160.85691833496094px;
-    stroke-dasharray: 160.85691833496094px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-.svg-elem-30 {
-  -webkit-animation: animate-svg-stroke-30 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 3.48s both,
-    animate-svg-fill-30 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.7s both;
-  animation: animate-svg-stroke-30 1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.48s
-      both,
-    animate-svg-fill-30 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.7s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-31 {
-  0% {
-    stroke-dashoffset: 240.48377990722656px;
-    stroke-dasharray: 240.48377990722656px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-31 {
-  0% {
-    stroke-dashoffset: 240.48377990722656px;
-    stroke-dasharray: 240.48377990722656px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-.svg-elem-31 {
-  -webkit-animation: animate-svg-stroke-31 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 3.5999999999999996s both,
-    animate-svg-fill-31 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.8s both;
-  animation: animate-svg-stroke-31 1s cubic-bezier(0.47, 0, 0.745, 0.715)
-      3.5999999999999996s both,
-    animate-svg-fill-31 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.8s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-32 {
-  0% {
-    stroke-dashoffset: 152.4967498779297px;
-    stroke-dasharray: 152.4967498779297px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-32 {
-  0% {
-    stroke-dashoffset: 152.4967498779297px;
-    stroke-dasharray: 152.4967498779297px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@-webkit-keyframes animate-svg-fill-32 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-@keyframes animate-svg-fill-32 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-.svg-elem-32 {
-  -webkit-animation: animate-svg-stroke-32 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 3.7199999999999998s both,
-    animate-svg-fill-32 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
-      3.9000000000000004s both;
-  animation: animate-svg-stroke-32 1s cubic-bezier(0.47, 0, 0.745, 0.715)
-      3.7199999999999998s both,
-    animate-svg-fill-32 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
-      3.9000000000000004s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-33 {
-  0% {
-    stroke-dashoffset: 202.41307067871094px;
-    stroke-dasharray: 202.41307067871094px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-33 {
-  0% {
-    stroke-dashoffset: 202.41307067871094px;
-    stroke-dasharray: 202.41307067871094px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@-webkit-keyframes animate-svg-fill-33 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-@keyframes animate-svg-fill-33 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-.svg-elem-33 {
-  -webkit-animation: animate-svg-stroke-33 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 3.84s both,
-    animate-svg-fill-33 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 4s both;
-  animation: animate-svg-stroke-33 1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.84s
-      both,
-    animate-svg-fill-33 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 4s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-34 {
-  0% {
-    stroke-dashoffset: 161.55075073242188px;
-    stroke-dasharray: 161.55075073242188px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-34 {
-  0% {
-    stroke-dashoffset: 161.55075073242188px;
-    stroke-dasharray: 161.55075073242188px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@-webkit-keyframes animate-svg-fill-34 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-@keyframes animate-svg-fill-34 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-.svg-elem-34 {
-  -webkit-animation: animate-svg-stroke-34 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 3.96s both,
-    animate-svg-fill-34 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
-      4.1000000000000005s both;
-  animation: animate-svg-stroke-34 1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.96s
-      both,
-    animate-svg-fill-34 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
-      4.1000000000000005s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-35 {
-  0% {
-    stroke-dashoffset: 240.44046020507812px;
-    stroke-dasharray: 240.44046020507812px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-35 {
-  0% {
-    stroke-dashoffset: 240.44046020507812px;
-    stroke-dasharray: 240.44046020507812px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@-webkit-keyframes animate-svg-fill-35 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-@keyframes animate-svg-fill-35 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-.svg-elem-35 {
-  -webkit-animation: animate-svg-stroke-35 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 4.08s both,
-    animate-svg-fill-35 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 4.2s both;
-  animation: animate-svg-stroke-35 1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.08s
-      both,
-    animate-svg-fill-35 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 4.2s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-36 {
-  0% {
-    stroke-dashoffset: 160.76023864746094px;
-    stroke-dasharray: 160.76023864746094px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-36 {
-  0% {
-    stroke-dashoffset: 160.76023864746094px;
-    stroke-dasharray: 160.76023864746094px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@-webkit-keyframes animate-svg-fill-36 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-@keyframes animate-svg-fill-36 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-.svg-elem-36 {
-  -webkit-animation: animate-svg-stroke-36 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 4.2s both,
-    animate-svg-fill-36 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 4.3s both;
-  animation: animate-svg-stroke-36 1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.2s
-      both,
-    animate-svg-fill-36 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 4.3s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-37 {
-  0% {
-    stroke-dashoffset: 160.85691833496094px;
-    stroke-dasharray: 160.85691833496094px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-37 {
-  0% {
-    stroke-dashoffset: 160.85691833496094px;
-    stroke-dasharray: 160.85691833496094px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@-webkit-keyframes animate-svg-fill-37 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-@keyframes animate-svg-fill-37 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-.svg-elem-37 {
-  -webkit-animation: animate-svg-stroke-37 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 4.32s both,
-    animate-svg-fill-37 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 4.4s both;
-  animation: animate-svg-stroke-37 1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.32s
-      both,
-    animate-svg-fill-37 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 4.4s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-38 {
-  0% {
-    stroke-dashoffset: 240.30455017089844px;
-    stroke-dasharray: 240.30455017089844px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-38 {
-  0% {
-    stroke-dashoffset: 240.30455017089844px;
-    stroke-dasharray: 240.30455017089844px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@-webkit-keyframes animate-svg-fill-38 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-@keyframes animate-svg-fill-38 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(57, 115, 191);
-  }
-}
-
-.svg-elem-38 {
-  -webkit-animation: animate-svg-stroke-38 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 4.4399999999999995s both,
-    animate-svg-fill-38 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 4.5s both;
-  animation: animate-svg-stroke-38 1s cubic-bezier(0.47, 0, 0.745, 0.715)
-      4.4399999999999995s both,
-    animate-svg-fill-38 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 4.5s both;
-}
-
-@-webkit-keyframes animate-svg-stroke-39 {
-  0% {
-    stroke-dashoffset: 1895.2825927734375px;
-    stroke-dasharray: 1895.2825927734375px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes animate-svg-stroke-39 {
-  0% {
-    stroke-dashoffset: 1895.2825927734375px;
-    stroke-dasharray: 1895.2825927734375px;
-  }
-
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@-webkit-keyframes animate-svg-fill-39 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(43, 128, 187);
-  }
-}
-
-@keyframes animate-svg-fill-39 {
-  0% {
-    fill: transparent;
-  }
-
-  100% {
-    fill: rgb(43, 128, 187);
-  }
-}
-
-.svg-elem-39 {
-  -webkit-animation: animate-svg-stroke-39 1s
-      cubic-bezier(0.47, 0, 0.745, 0.715) 4.56s both,
-    animate-svg-fill-39 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
-      4.6000000000000005s both;
-  animation: animate-svg-stroke-39 1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.56s
-      both,
-    animate-svg-fill-39 0.7s cubic-bezier(0.47, 0, 0.745, 0.715)
-      4.6000000000000005s both;
-}
-
+    /*タイトル*/
+    @-webkit-keyframes animate-svg-stroke-1 {
+      0% {
+        stroke-dashoffset: 106.38550567626953px;
+        stroke-dasharray: 106.38550567626953px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-1 {
+      0% {
+        stroke-dashoffset: 106.38550567626953px;
+        stroke-dasharray: 106.38550567626953px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    .svg-elem-1 {
+      -webkit-animation: animate-svg-stroke-1 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s both,
+        animate-svg-fill-1 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.8s both;
+      animation: animate-svg-stroke-1 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s both,
+        animate-svg-fill-1 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.8s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-2 {
+      0% {
+        stroke-dashoffset: 163.2914276123047px;
+        stroke-dasharray: 163.2914276123047px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-2 {
+      0% {
+        stroke-dashoffset: 163.2914276123047px;
+        stroke-dasharray: 163.2914276123047px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    .svg-elem-2 {
+      -webkit-animation: animate-svg-stroke-2 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.12s both,
+        animate-svg-fill-2 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.9s both;
+      animation: animate-svg-stroke-2 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.12s both,
+        animate-svg-fill-2 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.9s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-3 {
+      0% {
+        stroke-dashoffset: 220.99375915527344px;
+        stroke-dasharray: 220.99375915527344px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-3 {
+      0% {
+        stroke-dashoffset: 220.99375915527344px;
+        stroke-dasharray: 220.99375915527344px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    .svg-elem-3 {
+      -webkit-animation: animate-svg-stroke-3 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.24s both,
+        animate-svg-fill-3 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1s both;
+      animation: animate-svg-stroke-3 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.24s both,
+        animate-svg-fill-3 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-4 {
+      0% {
+        stroke-dashoffset: 233.74855042003906px;
+        stroke-dasharray: 233.74855042003906px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-4 {
+      0% {
+        stroke-dashoffset: 233.74855042003906px;
+        stroke-dasharray: 233.74855042003906px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    .svg-elem-4 {
+      -webkit-animation: animate-svg-stroke-4 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.36s both,
+        animate-svg-fill-4 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.1s both;
+      animation: animate-svg-stroke-4 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.36s both,
+        animate-svg-fill-4 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.1s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-5 {
+      0% {
+        stroke-dashoffset: 160.83750915527344px;
+        stroke-dasharray: 160.83750915527344px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-5 {
+      0% {
+        stroke-dashoffset: 160.83750915527344px;
+        stroke-dasharray: 160.83750915527344px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    .svg-elem-5 {
+      -webkit-animation: animate-svg-stroke-5 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.48s both,
+        animate-svg-fill-5 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2000000000000002s both;
+      animation: animate-svg-stroke-5 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.48s both,
+        animate-svg-fill-5 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2000000000000002s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-6 {
+      0% {
+        stroke-dashoffset: 208.7154998779297px;
+        stroke-dasharray: 208.7154998779297px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-6 {
+      0% {
+        stroke-dashoffset: 208.7154998779297px;
+        stroke-dasharray: 208.7154998779297px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    .svg-elem-6 {
+      -webkit-animation: animate-svg-stroke-6 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.6s both,
+        animate-svg-fill-6 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.3s both;
+      animation: animate-svg-stroke-6 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.6s both,
+        animate-svg-fill-6 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.3s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-7 {
+      0% {
+        stroke-dashoffset: 220.94607543945312px;
+        stroke-dasharray: 220.94607543945312px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-7 {
+      0% {
+        stroke-dashoffset: 220.94607543945312px;
+        stroke-dasharray: 220.94607543945312px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    .svg-elem-7 {
+      -webkit-animation: animate-svg-stroke-7 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.72s both,
+        animate-svg-fill-7 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.4000000000000001s both;
+      animation: animate-svg-stroke-7 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.72s both,
+        animate-svg-fill-7 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.4000000000000001s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-8 {
+      0% {
+        stroke-dashoffset: 152.4971923828125px;
+        stroke-dasharray: 152.4971923828125px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-8 {
+      0% {
+        stroke-dashoffset: 152.4971923828125px;
+        stroke-dasharray: 152.4971923828125px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    .svg-elem-8 {
+      -webkit-animation: animate-svg-stroke-8 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.84s both,
+        animate-svg-fill-8 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.5s both;
+      animation: animate-svg-stroke-8 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.84s both,
+        animate-svg-fill-8 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.5s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-9 {
+      0% {
+        stroke-dashoffset: 209.07864379882812px;
+        stroke-dasharray: 209.07864379882812px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-9 {
+      0% {
+        stroke-dashoffset: 209.07864379882812px;
+        stroke-dasharray: 209.07864379882812px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    .svg-elem-9 {
+      -webkit-animation: animate-svg-stroke-9 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.96s both,
+        animate-svg-fill-9 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.6s both;
+      animation: animate-svg-stroke-9 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.96s both,
+        animate-svg-fill-9 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.6s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-10 {
+      0% {
+        stroke-dashoffset: 212.80426025390625px;
+        stroke-dasharray: 212.80426025390625px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-10 {
+      0% {
+        stroke-dashoffset: 212.80426025390625px;
+        stroke-dasharray: 212.80426025390625px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    .svg-elem-10 {
+      -webkit-animation: animate-svg-stroke-10 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.08s both,
+        animate-svg-fill-10 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.7000000000000002s both;
+      animation: animate-svg-stroke-10 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.08s both,
+        animate-svg-fill-10 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.7000000000000002s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-11 {
+      0% {
+        stroke-dashoffset: 208.98985290527344px;
+        stroke-dasharray: 208.98985290527344px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-11 {
+      0% {
+        stroke-dashoffset: 208.98985290527344px;
+        stroke-dasharray: 208.98985290527344px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    .svg-elem-11 {
+      -webkit-animation: animate-svg-stroke-11 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2s both,
+        animate-svg-fill-11 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.8s both;
+      animation: animate-svg-stroke-11 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2s both,
+        animate-svg-fill-11 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.8s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-12 {
+      0% {
+        stroke-dashoffset: 212.800048828125px;
+        stroke-dasharray: 212.800048828125px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-12 {
+      0% {
+        stroke-dashoffset: 212.800048828125px;
+        stroke-dasharray: 212.800048828125px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    .svg-elem-12 {
+      -webkit-animation: animate-svg-stroke-12 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.3199999999999998s both,
+        animate-svg-fill-12 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.9000000000000001s both;
+      animation: animate-svg-stroke-12 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.3199999999999998s both,
+        animate-svg-fill-12 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.9000000000000001s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-13 {
+      0% {
+        stroke-dashoffset: 160.8375244140625px;
+        stroke-dasharray: 160.8375244140625px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-13 {
+      0% {
+        stroke-dashoffset: 160.8375244140625px;
+        stroke-dasharray: 160.8375244140625px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @-webkit-keyframes animate-svg-fill-13 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    @keyframes animate-svg-fill-13 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    .svg-elem-13 {
+      -webkit-animation: animate-svg-stroke-13 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.44s both,
+        animate-svg-fill-13 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2s both;
+      animation: animate-svg-stroke-13 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.44s both,
+        animate-svg-fill-13 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-14 {
+      0% {
+        stroke-dashoffset: 208.71559143066406px;
+        stroke-dasharray: 208.71559143066406px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-14 {
+      0% {
+        stroke-dashoffset: 208.71559143066406px;
+        stroke-dasharray: 208.71559143066406px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @-webkit-keyframes animate-svg-fill-14 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    @keyframes animate-svg-fill-14 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    .svg-elem-14 {
+      -webkit-animation: animate-svg-stroke-14 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.56s both,
+        animate-svg-fill-14 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.1s both;
+      animation: animate-svg-stroke-14 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.56s both,
+        animate-svg-fill-14 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.1s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-15 {
+      0% {
+        stroke-dashoffset: 220.9460906982422px;
+        stroke-dasharray: 220.9460906982422px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-15 {
+      0% {
+        stroke-dashoffset: 220.9460906982422px;
+        stroke-dasharray: 220.9460906982422px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @-webkit-keyframes animate-svg-fill-15 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    @keyframes animate-svg-fill-15 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    .svg-elem-15 {
+      -webkit-animation: animate-svg-stroke-15 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.68s both,
+        animate-svg-fill-15 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.2s both;
+      animation: animate-svg-stroke-15 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.68s both,
+        animate-svg-fill-15 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.2s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-16 {
+      0% {
+        stroke-dashoffset: 152.49713134765625px;
+        stroke-dasharray: 152.49713134765625px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-16 {
+      0% {
+        stroke-dashoffset: 152.49713134765625px;
+        stroke-dasharray: 152.49713134765625px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @-webkit-keyframes animate-svg-fill-16 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    @keyframes animate-svg-fill-16 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    .svg-elem-16 {
+      -webkit-animation: animate-svg-stroke-16 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.7999999999999998s both,
+        animate-svg-fill-16 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.3s both;
+      animation: animate-svg-stroke-16 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.7999999999999998s both,
+        animate-svg-fill-16 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.3s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-17 {
+      0% {
+        stroke-dashoffset: 209.0786895751953px;
+        stroke-dasharray: 209.0786895751953px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-17 {
+      0% {
+        stroke-dashoffset: 209.0786895751953px;
+        stroke-dasharray: 209.0786895751953px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @-webkit-keyframes animate-svg-fill-17 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    @keyframes animate-svg-fill-17 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    .svg-elem-17 {
+      -webkit-animation: animate-svg-stroke-17 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.92s both,
+        animate-svg-fill-17 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.4000000000000004s both;
+      animation: animate-svg-stroke-17 1s cubic-bezier(0.47, 0, 0.745, 0.715) 1.92s both,
+        animate-svg-fill-17 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.4000000000000004s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-18 {
+      0% {
+        stroke-dashoffset: 212.80430603027344px;
+        stroke-dasharray: 212.80430603027344px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-18 {
+      0% {
+        stroke-dashoffset: 212.80430603027344px;
+        stroke-dasharray: 212.80430603027344px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @-webkit-keyframes animate-svg-fill-18 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    @keyframes animate-svg-fill-18 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    .svg-elem-18 {
+      -webkit-animation: animate-svg-stroke-18 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.04s both,
+        animate-svg-fill-18 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.5s both;
+      animation: animate-svg-stroke-18 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.04s both,
+        animate-svg-fill-18 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.5s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-19 {
+      0% {
+        stroke-dashoffset: 208.98980712890625px;
+        stroke-dasharray: 208.98980712890625px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-19 {
+      0% {
+        stroke-dashoffset: 208.98980712890625px;
+        stroke-dasharray: 208.98980712890625px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @-webkit-keyframes animate-svg-fill-19 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    @keyframes animate-svg-fill-19 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    .svg-elem-19 {
+      -webkit-animation: animate-svg-stroke-19 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.16s both,
+        animate-svg-fill-19 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.6s both;
+      animation: animate-svg-stroke-19 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.16s both,
+        animate-svg-fill-19 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.6s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-20 {
+      0% {
+        stroke-dashoffset: 212.8000946044922px;
+        stroke-dasharray: 212.8000946044922px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-20 {
+      0% {
+        stroke-dashoffset: 212.8000946044922px;
+        stroke-dasharray: 212.8000946044922px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @-webkit-keyframes animate-svg-fill-20 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    @keyframes animate-svg-fill-20 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    .svg-elem-20 {
+      -webkit-animation: animate-svg-stroke-20 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.28s both,
+        animate-svg-fill-20 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.7s both;
+      animation: animate-svg-stroke-20 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.28s both,
+        animate-svg-fill-20 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.7s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-21 {
+      0% {
+        stroke-dashoffset: 106.40157318115234px;
+        stroke-dasharray: 106.40157318115234px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-21 {
+      0% {
+        stroke-dashoffset: 106.40157318115234px;
+        stroke-dasharray: 106.40157318115234px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @-webkit-keyframes animate-svg-fill-21 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    @keyframes animate-svg-fill-21 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    .svg-elem-21 {
+      -webkit-animation: animate-svg-stroke-21 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.4s both,
+        animate-svg-fill-21 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.8s both;
+      animation: animate-svg-stroke-21 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.4s both,
+        animate-svg-fill-21 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.8s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-22 {
+      0% {
+        stroke-dashoffset: 163.2914581298828px;
+        stroke-dasharray: 163.2914581298828px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-22 {
+      0% {
+        stroke-dashoffset: 163.2914581298828px;
+        stroke-dasharray: 163.2914581298828px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @-webkit-keyframes animate-svg-fill-22 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    @keyframes animate-svg-fill-22 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    .svg-elem-22 {
+      -webkit-animation: animate-svg-stroke-22 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.52s both,
+        animate-svg-fill-22 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.9000000000000004s both;
+      animation: animate-svg-stroke-22 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.52s both,
+        animate-svg-fill-22 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.9000000000000004s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-23 {
+      0% {
+        stroke-dashoffset: 220.99378967285156px;
+        stroke-dasharray: 220.99378967285156px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-23 {
+      0% {
+        stroke-dashoffset: 220.99378967285156px;
+        stroke-dasharray: 220.99378967285156px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @-webkit-keyframes animate-svg-fill-23 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    @keyframes animate-svg-fill-23 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    .svg-elem-23 {
+      -webkit-animation: animate-svg-stroke-23 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.6399999999999997s both,
+        animate-svg-fill-23 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3s both;
+      animation: animate-svg-stroke-23 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.6399999999999997s both,
+        animate-svg-fill-23 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-24 {
+      0% {
+        stroke-dashoffset: 233.74855042003906px;
+        stroke-dasharray: 233.74855042003906px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-24 {
+      0% {
+        stroke-dashoffset: 233.74855042003906px;
+        stroke-dasharray: 233.74855042003906px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @-webkit-keyframes animate-svg-fill-24 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    @keyframes animate-svg-fill-24 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    .svg-elem-24 {
+      -webkit-animation: animate-svg-stroke-24 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.76s both,
+        animate-svg-fill-24 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.1000000000000005s both;
+      animation: animate-svg-stroke-24 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.76s both,
+        animate-svg-fill-24 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.1000000000000005s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-25 {
+      0% {
+        stroke-dashoffset: 152.4967498779297px;
+        stroke-dasharray: 152.4967498779297px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-25 {
+      0% {
+        stroke-dashoffset: 152.4967498779297px;
+        stroke-dasharray: 152.4967498779297px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    .svg-elem-25 {
+      -webkit-animation: animate-svg-stroke-25 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.88s both,
+        animate-svg-fill-25 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.2s both;
+      animation: animate-svg-stroke-25 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2.88s both,
+        animate-svg-fill-25 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.2s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-26 {
+      0% {
+        stroke-dashoffset: 202.41305541992188px;
+        stroke-dasharray: 202.41305541992188px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-26 {
+      0% {
+        stroke-dashoffset: 202.41305541992188px;
+        stroke-dasharray: 202.41305541992188px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    .svg-elem-26 {
+      -webkit-animation: animate-svg-stroke-26 1s cubic-bezier(0.47, 0, 0.745, 0.715) 3s both,
+        animate-svg-fill-26 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.3s both;
+      animation: animate-svg-stroke-26 1s cubic-bezier(0.47, 0, 0.745, 0.715) 3s both,
+        animate-svg-fill-26 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.3s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-27 {
+      0% {
+        stroke-dashoffset: 161.55081176757812px;
+        stroke-dasharray: 161.55081176757812px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-27 {
+      0% {
+        stroke-dashoffset: 161.55081176757812px;
+        stroke-dasharray: 161.55081176757812px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    .svg-elem-27 {
+      -webkit-animation: animate-svg-stroke-27 1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.12s both,
+        animate-svg-fill-27 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.4000000000000004s both;
+      animation: animate-svg-stroke-27 1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.12s both,
+        animate-svg-fill-27 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.4000000000000004s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-28 {
+      0% {
+        stroke-dashoffset: 240.4404296875px;
+        stroke-dasharray: 240.4404296875px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-28 {
+      0% {
+        stroke-dashoffset: 240.4404296875px;
+        stroke-dasharray: 240.4404296875px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    .svg-elem-28 {
+      -webkit-animation: animate-svg-stroke-28 1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.2399999999999998s both,
+        animate-svg-fill-28 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.5s both;
+      animation: animate-svg-stroke-28 1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.2399999999999998s both,
+        animate-svg-fill-28 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.5s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-29 {
+      0% {
+        stroke-dashoffset: 160.76028442382812px;
+        stroke-dasharray: 160.76028442382812px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-29 {
+      0% {
+        stroke-dashoffset: 160.76028442382812px;
+        stroke-dasharray: 160.76028442382812px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    .svg-elem-29 {
+      -webkit-animation: animate-svg-stroke-29 1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.36s both,
+        animate-svg-fill-29 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.6000000000000005s both;
+      animation: animate-svg-stroke-29 1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.36s both,
+        animate-svg-fill-29 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.6000000000000005s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-30 {
+      0% {
+        stroke-dashoffset: 160.85691833496094px;
+        stroke-dasharray: 160.85691833496094px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-30 {
+      0% {
+        stroke-dashoffset: 160.85691833496094px;
+        stroke-dasharray: 160.85691833496094px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    .svg-elem-30 {
+      -webkit-animation: animate-svg-stroke-30 1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.48s both,
+        animate-svg-fill-30 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.7s both;
+      animation: animate-svg-stroke-30 1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.48s both,
+        animate-svg-fill-30 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.7s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-31 {
+      0% {
+        stroke-dashoffset: 240.48377990722656px;
+        stroke-dasharray: 240.48377990722656px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-31 {
+      0% {
+        stroke-dashoffset: 240.48377990722656px;
+        stroke-dasharray: 240.48377990722656px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    .svg-elem-31 {
+      -webkit-animation: animate-svg-stroke-31 1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.5999999999999996s both,
+        animate-svg-fill-31 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.8s both;
+      animation: animate-svg-stroke-31 1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.5999999999999996s both,
+        animate-svg-fill-31 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.8s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-32 {
+      0% {
+        stroke-dashoffset: 152.4967498779297px;
+        stroke-dasharray: 152.4967498779297px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-32 {
+      0% {
+        stroke-dashoffset: 152.4967498779297px;
+        stroke-dasharray: 152.4967498779297px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @-webkit-keyframes animate-svg-fill-32 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    @keyframes animate-svg-fill-32 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    .svg-elem-32 {
+      -webkit-animation: animate-svg-stroke-32 1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.7199999999999998s both,
+        animate-svg-fill-32 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.9000000000000004s both;
+      animation: animate-svg-stroke-32 1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.7199999999999998s both,
+        animate-svg-fill-32 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 3.9000000000000004s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-33 {
+      0% {
+        stroke-dashoffset: 202.41307067871094px;
+        stroke-dasharray: 202.41307067871094px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-33 {
+      0% {
+        stroke-dashoffset: 202.41307067871094px;
+        stroke-dasharray: 202.41307067871094px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @-webkit-keyframes animate-svg-fill-33 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    @keyframes animate-svg-fill-33 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    .svg-elem-33 {
+      -webkit-animation: animate-svg-stroke-33 1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.84s both,
+        animate-svg-fill-33 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 4s both;
+      animation: animate-svg-stroke-33 1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.84s both,
+        animate-svg-fill-33 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 4s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-34 {
+      0% {
+        stroke-dashoffset: 161.55075073242188px;
+        stroke-dasharray: 161.55075073242188px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-34 {
+      0% {
+        stroke-dashoffset: 161.55075073242188px;
+        stroke-dasharray: 161.55075073242188px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @-webkit-keyframes animate-svg-fill-34 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    @keyframes animate-svg-fill-34 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    .svg-elem-34 {
+      -webkit-animation: animate-svg-stroke-34 1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.96s both,
+        animate-svg-fill-34 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 4.1000000000000005s both;
+      animation: animate-svg-stroke-34 1s cubic-bezier(0.47, 0, 0.745, 0.715) 3.96s both,
+        animate-svg-fill-34 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 4.1000000000000005s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-35 {
+      0% {
+        stroke-dashoffset: 240.44046020507812px;
+        stroke-dasharray: 240.44046020507812px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-35 {
+      0% {
+        stroke-dashoffset: 240.44046020507812px;
+        stroke-dasharray: 240.44046020507812px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @-webkit-keyframes animate-svg-fill-35 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    @keyframes animate-svg-fill-35 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    .svg-elem-35 {
+      -webkit-animation: animate-svg-stroke-35 1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.08s both,
+        animate-svg-fill-35 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 4.2s both;
+      animation: animate-svg-stroke-35 1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.08s both,
+        animate-svg-fill-35 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 4.2s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-36 {
+      0% {
+        stroke-dashoffset: 160.76023864746094px;
+        stroke-dasharray: 160.76023864746094px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-36 {
+      0% {
+        stroke-dashoffset: 160.76023864746094px;
+        stroke-dasharray: 160.76023864746094px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @-webkit-keyframes animate-svg-fill-36 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    @keyframes animate-svg-fill-36 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    .svg-elem-36 {
+      -webkit-animation: animate-svg-stroke-36 1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.2s both,
+        animate-svg-fill-36 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 4.3s both;
+      animation: animate-svg-stroke-36 1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.2s both,
+        animate-svg-fill-36 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 4.3s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-37 {
+      0% {
+        stroke-dashoffset: 160.85691833496094px;
+        stroke-dasharray: 160.85691833496094px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-37 {
+      0% {
+        stroke-dashoffset: 160.85691833496094px;
+        stroke-dasharray: 160.85691833496094px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @-webkit-keyframes animate-svg-fill-37 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    @keyframes animate-svg-fill-37 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    .svg-elem-37 {
+      -webkit-animation: animate-svg-stroke-37 1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.32s both,
+        animate-svg-fill-37 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 4.4s both;
+      animation: animate-svg-stroke-37 1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.32s both,
+        animate-svg-fill-37 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 4.4s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-38 {
+      0% {
+        stroke-dashoffset: 240.30455017089844px;
+        stroke-dasharray: 240.30455017089844px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-38 {
+      0% {
+        stroke-dashoffset: 240.30455017089844px;
+        stroke-dasharray: 240.30455017089844px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @-webkit-keyframes animate-svg-fill-38 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    @keyframes animate-svg-fill-38 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(57, 115, 191);
+      }
+    }
+
+    .svg-elem-38 {
+      -webkit-animation: animate-svg-stroke-38 1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.4399999999999995s both,
+        animate-svg-fill-38 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 4.5s both;
+      animation: animate-svg-stroke-38 1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.4399999999999995s both,
+        animate-svg-fill-38 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 4.5s both;
+    }
+
+    @-webkit-keyframes animate-svg-stroke-39 {
+      0% {
+        stroke-dashoffset: 1895.2825927734375px;
+        stroke-dasharray: 1895.2825927734375px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes animate-svg-stroke-39 {
+      0% {
+        stroke-dashoffset: 1895.2825927734375px;
+        stroke-dasharray: 1895.2825927734375px;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @-webkit-keyframes animate-svg-fill-39 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(43, 128, 187);
+      }
+    }
+
+    @keyframes animate-svg-fill-39 {
+      0% {
+        fill: transparent;
+      }
+
+      100% {
+        fill: rgb(43, 128, 187);
+      }
+    }
+
+    .svg-elem-39 {
+      -webkit-animation: animate-svg-stroke-39 1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.56s both,
+        animate-svg-fill-39 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 4.6000000000000005s both;
+      animation: animate-svg-stroke-39 1s cubic-bezier(0.47, 0, 0.745, 0.715) 4.56s both,
+        animate-svg-fill-39 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 4.6000000000000005s both;
+    }
   </style>
   <style>
     @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
-html,
-body {
-  font-size: 18px;
-  margin: 0px;
-  padding: 0px;
-  height: 100%;
-  font-family: fot-tsukuardgothic-std, sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  scroll-behavior: smooth;
-}
 
-@media (max-width: 700px) {
-  html,
-  body {
-    font-size: 15px;
-  }
-}
+    html,
+    body {
+      font-size: 18px;
+      margin: 0px;
+      padding: 0px;
+      height: 100%;
+      font-family: fot-tsukuardgothic-std, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      scroll-behavior: smooth;
+    }
 
-html ::-moz-selection,
-body ::-moz-selection {
-  background: #d6e9ff;
-}
+    @media (max-width: 700px) {
 
-html ::selection,
-body ::selection {
-  background: #d6e9ff;
-}
+      html,
+      body {
+        font-size: 15px;
+      }
+    }
 
-html ::-moz-selection,
-body ::-moz-selection {
-  background: #d6e9ff;
-}
+    html ::-moz-selection,
+    body ::-moz-selection {
+      background: #d6e9ff;
+    }
 
-.top {
-  widows: 100vw;
-  height: 100%;
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: none;
-}
+    html ::selection,
+    body ::selection {
+      background: #d6e9ff;
+    }
 
-.top nav {
-  height: 8.8vh;
-  -webkit-box-pack: justify;
+    html ::-moz-selection,
+    body ::-moz-selection {
+      background: #d6e9ff;
+    }
+
+    .top {
+      widows: 100vw;
+      height: 100%;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: none;
+    }
+
+    .top nav {
+      height: 8.8vh;
+      -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  padding: 0%;
-}
-
-.top nav .left {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.top nav .left img {
-  display: inline;
-  padding: 20px;
-}
-
-.top nav ul {
-  margin-right: 4.1vw;
-  font-size: 1em;
-  list-style-type: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.top nav ul li {
-  display: block;
-  margin-left: 3.2vw;
-  color: #000000;
-}
-
-.top nav ul li a {
-  font-size: 1em;
-  color: #000000;
-  text-decoration: none;
-  padding: 3px;
-  position: relative;
-  display: inline-block;
-}
-
-.top nav ul li a::after {
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  content: "";
-  width: 100%;
-  height: 2px;
-  background: #5b5757;
-  -webkit-transform: scale(0, 1);
-          transform: scale(0, 1);
-  -webkit-transform-origin: center top;
-          transform-origin: center top;
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: -webkit-transform 0.3s;
-  transition: transform 0.3s;
-  transition: transform 0.3s, -webkit-transform 0.3s;
-}
-
-.top nav ul li a:hover::after {
-  -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
-}
-
-header {
-  margin-bottom: 6.3vh;
-  text-align: center;
-}
-
-header svg {
-  margin-top: 12.6vh;
-}
-
-header .svg-elem-1 {
-  margin-right: 12.6vh;
-}
-
-header .number {
-  z-index: 2;
-  display: block;
-  background-color: #fff;
-  line-height: 2.5vh;
-  position: fixed;
-  right: 2.7vw;
-  bottom: 5vh;
-  text-align: center;
-  border: 2px solid black;
-  border-radius: 6px;
-}
-
-header .number .botton-2 {
-  padding: 19px;
-}
-
-header .number .botton-2 a {
-  font-size: 1.1em;
-  color: #000000;
-  text-decoration: none;
-  padding: 3px;
-  position: relative;
-  display: inline-block;
-}
-
-header .number .botton-2 a::after {
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  content: "";
-  width: 100%;
-  height: 0.25vh;
-  background: #5b5757;
-  -webkit-transform: scale(0, 1);
-          transform: scale(0, 1);
-  -webkit-transform-origin: center top;
-          transform-origin: center top;
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: -webkit-transform 0.3s;
-  transition: transform 0.3s;
-  transition: transform 0.3s, -webkit-transform 0.3s;
-}
-
-header .number .botton-2 a:hover::after {
-  -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
-}
-
-header .number .time-all {
-  margin: 10px;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  border-top: 5px solid black;
-  border-bottom: 5px solid black;
-}
-
-header .number .time-all .time {
-  font-size: 1.2em;
-  margin: 0px;
-  margin-bottom: 20px;
-  padding: 0px;
-}
-
-header .number .time-all .time .unit {
-  font-size: 0.8em;
-  padding: 0px;
-  margin: 0px;
-}
-
-header .number .time-all .time_title {
-  font-size: 1.2em;
-}
-
-header .number .number-all {
-  margin: 10px;
-  margin-top: 0px;
-  border-bottom: 5px solid black;
-}
-
-header .number .number-all .realtimeuserscounter {
-  font-size: 1.5em;
-}
-
-header .number .number-all .number_title {
-  font-size: 1.2em;
-}
-
-header .number .share {
-  margin: 10px;
-  padding: 0px;
-  border-bottom: 5px solid black;
-  text-align: center;
-}
-
-header .number .share .botton {
-  padding-bottom: 10px;
-}
-
-header .number .share .botton .sns_btn {
-  display: inline-block;
-  color: #fff;
-  height: 3em;
-  width: 3em;
-  position: relative;
-  font-size: 1.3em;
-  border-radius: 0.3125em;
-  -webkit-box-shadow: 0 0.1875em 0.3125em 0 rgba(0, 0, 0, 0.35);
-          box-shadow: 0 0.1875em 0.3125em 0 rgba(0, 0, 0, 0.35);
-  margin: 0.2em;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-  overflow: hidden;
-}
-
-header .number .share .botton .sns_btn i {
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  overflow: auto;
-}
-
-header .number .share .botton .sns_btn:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-  -webkit-box-shadow: 0 0.3125em 0.9375em 0 rgba(0, 0, 0, 0.4);
-          box-shadow: 0 0.3125em 0.9375em 0 rgba(0, 0, 0, 0.4);
-}
-
-header .number .share .botton .sns_btn:active {
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
-  -webkit-box-shadow: 0 0.125em 0.1875em 0 rgba(0, 0, 0, 0.4);
-          box-shadow: 0 0.125em 0.1875em 0 rgba(0, 0, 0, 0.4);
-}
-
-header .number .share .botton .btn_facebook {
-  background: #3b5998;
-}
-
-header .number .share .botton .btn_facebook:hover {
-  color: #3b5998;
-  background: #fff;
-}
-
-header .number .share .botton .btn_twitter {
-  background: #55acee;
-}
-
-header .number .share .botton .btn_twitter:hover {
-  color: #55acee;
-  background: #fff;
-}
-
-header .number .share .botton .btn_email {
-  background: #9f0303;
-}
-
-header .number .share .botton .btn_email:hover {
-  color: #9f0303;
-  background: #fff;
-}
-
-.temp-1 {
-  padding-top: 12.6vh;
-  padding-bottom: 12.6vh;
-}
-
-.temp-1 .text {
-  margin-left: 8.3vw;
-  background-color: #d08c23;
-  padding-bottom: 7.6vh;
-  width: 91.6vw;
-  border-radius: 10px 0px 0px 10px;
-}
-
-.temp-1 .text .title {
-  padding-top: 12.6vh;
-  margin-top: 12.6vh;
-  margin-left: 13.8vw;
-  color: #ffffff;
-}
-
-.temp-1 .text .title h2 {
-  font-size: 4.4em;
-  margin: 0px;
-  margin-bottom: 6.3vh;
-  line-height: 0px;
-  letter-spacing: 10px;
-}
-
-.temp-1 .text .title .subtitile {
-  margin: 0px;
-  line-height: 0px;
-  font-size: 1.3em;
-}
-
-.temp-1 .text .content {
-  text-align: center;
-  border: #fff solid 2px;
-  width: 41.6vw;
-  padding: 70px;
-  padding-top: 0.12vh;
-  background-color: #fff;
-  -webkit-box-shadow: 0 0 8px gray;
-          box-shadow: 0 0 8px gray;
-  margin-left: 13.8vw;
-  margin-top: 5vh;
-  border-radius: 6px;
-}
-
-.temp-1 .text .content h2 {
-  font-size: 1.9em;
-  padding: 0px;
-  text-align: center;
-}
-
-.temp-1 .text .content h3 {
-  text-align: left;
-  line-height: 4vh;
-  font-size: 1.1em;
-}
-
-.temp-2 {
-  padding-top: 12.6vh;
-  padding-bottom: 12.6vh;
-}
-
-.temp-2 .text {
-  background-color: #5acdc2;
-  padding-bottom: 7.6vh;
-  width: 72.2vw;
-  border-radius: 0px 10px 10px 0px;
-}
-
-.temp-2 .text .title {
-  padding-top: 12.6vh;
-  margin-top: 12.6vh;
-  margin-left: 34.7vw;
-  color: #ffffff;
-}
-
-.temp-2 .text .title h2 {
-  font-size: 4.4em;
-  margin: 0px;
-  margin-bottom: 50px;
-  line-height: 0px;
-  letter-spacing: 10px;
-}
-
-.temp-2 .text .title .subtitile {
-  margin: 0px;
-  line-height: 0px;
-  margin-top: 5vh;
-  font-size: 1.3em;
-}
-
-.temp-2 .text .content {
-  text-align: center;
-  border: #fff solid 2px;
-  width: 41vw;
-  padding: 40px;
-  padding-top: 1.2vh;
-  background-color: #fff;
-  -webkit-box-shadow: 0 0 8px gray;
-          box-shadow: 0 0 8px gray;
-  margin-left: 17vw;
-  margin-top: 8.8vh;
-  border-radius: 6px;
-}
-
-.temp-2 .text .content h2 {
-  font-size: 1.9em;
-  padding: 0px;
-  text-align: center;
-}
-
-.temp-2 .text .content h3 {
-  text-align: left;
-  line-height: 4vh;
-  font-size: 1.1rem;
-  text-align: left;
-}
-
-.temp-2 .text .content h3 .making {
-  font-size: 1.1em;
-  position: relative;
-  display: inline-block;
-  text-decoration: none;
-  color: #000000;
-}
-
-.temp-2 .text .content h3 .making::after {
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  content: "";
-  width: 100%;
-  height: 0.2vh;
-  background: #5b5757;
-  -webkit-transform: scale(0, 1);
-          transform: scale(0, 1);
-  -webkit-transform-origin: center top;
-          transform-origin: center top;
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: -webkit-transform 0.3s;
-  transition: transform 0.3s;
-  transition: transform 0.3s, -webkit-transform 0.3s;
-}
-
-.temp-2 .text .content h3 .making:hover::after {
-  -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
-}
-
-.temp-3 {
-  padding-top: 12.6vh;
-  padding-bottom: 12.6vh;
-}
-
-.temp-3 .text {
-  margin-left: 8.3vw;
-  background-color: #155a83;
-  padding-bottom: 7.6vw;
-  width: 91.6vw;
-  border-radius: 10px 0px 0px 10px;
-}
-
-.temp-3 .text .title {
-  padding-top: 12.6vh;
-  margin-top: 12.6vh;
-  margin-left: 13.8vw;
-  color: #ffffff;
-}
-
-.temp-3 .text .title h2 {
-  font-size: 4.4em;
-  margin: 0px;
-  margin-bottom: 6.3vh;
-  line-height: 0px;
-  letter-spacing: 10px;
-}
-
-.temp-3 .text .title .subtitile {
-  margin: 0px;
-  line-height: 0px;
-  margin-top: 5vh;
-  font-size: 1.3em;
-}
-
-.temp-3 .text .content {
-  text-align: center;
-  border: #fff solid 2px;
-  width: 41.6vw;
-  padding: 40px;
-  padding-top: 1.2vh;
-  background-color: #fff;
-  -webkit-box-shadow: 0 0 8px gray;
-          box-shadow: 0 0 8px gray;
-  margin-left: 13.8vw;
-  margin-top: 8.8vh;
-  border-radius: 6px;
-}
-
-.temp-3 .text .content h2 {
-  font-size: 1.9em;
-  padding: 0px;
-  text-align: center;
-}
-
-.temp-3 .text .content h3 {
-  text-align: left;
-  line-height: 4vh;
-  font-size: 1.1em;
-}
-
-.temp-3 .text .content h3 .making {
-  font-size: 1.1em;
-  position: relative;
-  display: inline-block;
-  text-decoration: none;
-  color: black;
-}
-
-.temp-3 .text .content h3 .making::after {
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  content: "";
-  width: 100%;
-  height: 0.2vh;
-  background: #5b5757;
-  -webkit-transform: scale(0, 1);
-          transform: scale(0, 1);
-  -webkit-transform-origin: center top;
-          transform-origin: center top;
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: -webkit-transform 0.3s;
-  transition: transform 0.3s;
-  transition: transform 0.3s, -webkit-transform 0.3s;
-}
-
-.temp-3 .text .content h3 .making:hover::after {
-  -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
-}
-
-.temp-4 {
-  padding-top: 12.6vh;
-  padding-bottom: 12.6vh;
-}
-
-.temp-4 .text {
-  background-color: #5acdc2;
-  padding-bottom: 7.6vh;
-  width: 72.2vw;
-  border-radius: 0px 10px 10px 0px;
-}
-
-.temp-4 .text .title {
-  padding-top: 12.6vh;
-  margin-top: 12.6vh;
-  margin-left: 34.7vw;
-  color: #ffffff;
-}
-
-.temp-4 .text .title h2 {
-  font-size: 4.4em;
-  margin: 0px;
-  margin-bottom: 6.3vh;
-  line-height: 0px;
-  letter-spacing: 10px;
-}
-
-.temp-4 .text .title .subtitile {
-  margin: 0px;
-  line-height: 0px;
-  margin-top: 7.6vh;
-  font-size: 1em;
-}
-
-.temp-4 .text .content {
-  text-align: center;
-  border: #fff solid 2px;
-  width: 41.6vw;
-  padding: 40px;
-  padding-top: 1.2vh;
-  background-color: #fff;
-  -webkit-box-shadow: 0 0 8px gray;
-          box-shadow: 0 0 8px gray;
-  margin-left: 17.3vw;
-  margin-top: 8.8vw;
-  border-radius: 6px;
-}
-
-.temp-4 .text .content h2 {
-  font-size: 1.5em;
-  padding: 0px;
-  text-align: center;
-}
-
-.temp-4 .text .content h3 {
-  text-align: left;
-  line-height: 4vh;
-  font-size: 1.1em;
-}
-
-.temp-4 .text form {
-  text-align: right;
-  margin-left: 17.3vw;
-}
-
-.temp-4 .text form .justification {
-  -webkit-box-align: start;
+      justify-content: space-between;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      text-align: center;
+      padding: 0%;
+    }
+
+    .top nav .left {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+
+    .top nav .left img {
+      display: inline;
+      padding: 20px;
+    }
+
+    .top nav ul {
+      margin-right: 4.1vw;
+      font-size: 1em;
+      list-style-type: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+
+    .top nav ul li {
+      display: block;
+      margin-left: 3.2vw;
+      color: #000000;
+    }
+
+    .top nav ul li a {
+      font-size: 1em;
+      color: #000000;
+      text-decoration: none;
+      padding: 3px;
+      position: relative;
+      display: inline-block;
+    }
+
+    .top nav ul li a::after {
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      content: "";
+      width: 100%;
+      height: 2px;
+      background: #5b5757;
+      -webkit-transform: scale(0, 1);
+      transform: scale(0, 1);
+      -webkit-transform-origin: center top;
+      transform-origin: center top;
+      -webkit-transition: -webkit-transform 0.3s;
+      transition: -webkit-transform 0.3s;
+      transition: transform 0.3s;
+      transition: transform 0.3s, -webkit-transform 0.3s;
+    }
+
+    .top nav ul li a:hover::after {
+      -webkit-transform: scale(1, 1);
+      transform: scale(1, 1);
+    }
+
+    header {
+      margin-bottom: 6.3vh;
+      text-align: center;
+    }
+
+    header svg {
+      margin-top: 12.6vh;
+    }
+
+    header .svg-elem-1 {
+      margin-right: 12.6vh;
+    }
+
+    header .number {
+      z-index: 2;
+      display: block;
+      background-color: #fff;
+      line-height: 2.5vh;
+      position: fixed;
+      right: 2.7vw;
+      bottom: 5vh;
+      text-align: center;
+      border: 2px solid black;
+      border-radius: 6px;
+    }
+
+    header .number .botton-2 {
+      padding: 19px;
+    }
+
+    header .number .botton-2 a {
+      font-size: 1.1em;
+      color: #000000;
+      text-decoration: none;
+      padding: 3px;
+      position: relative;
+      display: inline-block;
+    }
+
+    header .number .botton-2 a::after {
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      content: "";
+      width: 100%;
+      height: 0.25vh;
+      background: #5b5757;
+      -webkit-transform: scale(0, 1);
+      transform: scale(0, 1);
+      -webkit-transform-origin: center top;
+      transform-origin: center top;
+      -webkit-transition: -webkit-transform 0.3s;
+      transition: -webkit-transform 0.3s;
+      transition: transform 0.3s;
+      transition: transform 0.3s, -webkit-transform 0.3s;
+    }
+
+    header .number .botton-2 a:hover::after {
+      -webkit-transform: scale(1, 1);
+      transform: scale(1, 1);
+    }
+
+    header .number .time-all {
+      margin: 10px;
+      margin-bottom: 0px;
+      margin-top: 0px;
+      border-top: 5px solid black;
+      border-bottom: 5px solid black;
+    }
+
+    header .number .time-all .time {
+      font-size: 1.2em;
+      margin: 0px;
+      margin-bottom: 20px;
+      padding: 0px;
+    }
+
+    header .number .time-all .time .unit {
+      font-size: 0.8em;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    header .number .time-all .time_title {
+      font-size: 1.2em;
+    }
+
+    header .number .number-all {
+      margin: 10px;
+      margin-top: 0px;
+      border-bottom: 5px solid black;
+    }
+
+    header .number .number-all .realtimeuserscounter {
+      font-size: 1.5em;
+    }
+
+    header .number .number-all .number_title {
+      font-size: 1.2em;
+    }
+
+    header .number .share {
+      margin: 10px;
+      padding: 0px;
+      border-bottom: 5px solid black;
+      text-align: center;
+    }
+
+    header .number .share .botton {
+      padding-bottom: 10px;
+    }
+
+    header .number .share .botton .sns_btn {
+      display: inline-block;
+      color: #fff;
+      height: 3em;
+      width: 3em;
+      position: relative;
+      font-size: 1.3em;
+      border-radius: 0.3125em;
+      -webkit-box-shadow: 0 0.1875em 0.3125em 0 rgba(0, 0, 0, 0.35);
+      box-shadow: 0 0.1875em 0.3125em 0 rgba(0, 0, 0, 0.35);
+      margin: 0.2em;
+      -webkit-transition: all 0.2s;
+      transition: all 0.2s;
+      overflow: hidden;
+    }
+
+    header .number .share .botton .sns_btn i {
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+      overflow: auto;
+    }
+
+    header .number .share .botton .sns_btn:hover {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-box-shadow: 0 0.3125em 0.9375em 0 rgba(0, 0, 0, 0.4);
+      box-shadow: 0 0.3125em 0.9375em 0 rgba(0, 0, 0, 0.4);
+    }
+
+    header .number .share .botton .sns_btn:active {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+      -webkit-box-shadow: 0 0.125em 0.1875em 0 rgba(0, 0, 0, 0.4);
+      box-shadow: 0 0.125em 0.1875em 0 rgba(0, 0, 0, 0.4);
+    }
+
+    header .number .share .botton .btn_facebook {
+      background: #3b5998;
+    }
+
+    header .number .share .botton .btn_facebook:hover {
+      color: #3b5998;
+      background: #fff;
+    }
+
+    header .number .share .botton .btn_twitter {
+      background: #55acee;
+    }
+
+    header .number .share .botton .btn_twitter:hover {
+      color: #55acee;
+      background: #fff;
+    }
+
+    header .number .share .botton .btn_email {
+      background: #9f0303;
+    }
+
+    header .number .share .botton .btn_email:hover {
+      color: #9f0303;
+      background: #fff;
+    }
+
+    .temp-1 {
+      padding-top: 12.6vh;
+      padding-bottom: 12.6vh;
+    }
+
+    .temp-1 .text {
+      margin-left: 8.3vw;
+      background-color: #d08c23;
+      padding-bottom: 7.6vh;
+      width: 91.6vw;
+      border-radius: 10px 0px 0px 10px;
+    }
+
+    .temp-1 .text .title {
+      padding-top: 12.6vh;
+      margin-top: 12.6vh;
+      margin-left: 13.8vw;
+      color: #ffffff;
+    }
+
+    .temp-1 .text .title h2 {
+      font-size: 4.4em;
+      margin: 0px;
+      margin-bottom: 6.3vh;
+      line-height: 0px;
+      letter-spacing: 10px;
+    }
+
+    .temp-1 .text .title .subtitile {
+      margin: 0px;
+      line-height: 0px;
+      font-size: 1.3em;
+    }
+
+    .temp-1 .text .content {
+      text-align: center;
+      border: #fff solid 2px;
+      width: 41.6vw;
+      padding: 70px;
+      padding-top: 0.12vh;
+      background-color: #fff;
+      -webkit-box-shadow: 0 0 8px gray;
+      box-shadow: 0 0 8px gray;
+      margin-left: 13.8vw;
+      margin-top: 5vh;
+      border-radius: 6px;
+    }
+
+    .temp-1 .text .content h2 {
+      font-size: 1.9em;
+      padding: 0px;
+      text-align: center;
+    }
+
+    .temp-1 .text .content h3 {
+      text-align: left;
+      line-height: 4vh;
+      font-size: 1.1em;
+    }
+
+    .temp-2 {
+      padding-top: 12.6vh;
+      padding-bottom: 12.6vh;
+    }
+
+    .temp-2 .text {
+      background-color: #5acdc2;
+      padding-bottom: 7.6vh;
+      width: 72.2vw;
+      border-radius: 0px 10px 10px 0px;
+    }
+
+    .temp-2 .text .title {
+      padding-top: 12.6vh;
+      margin-top: 12.6vh;
+      margin-left: 34.7vw;
+      color: #ffffff;
+    }
+
+    .temp-2 .text .title h2 {
+      font-size: 4.4em;
+      margin: 0px;
+      margin-bottom: 50px;
+      line-height: 0px;
+      letter-spacing: 10px;
+    }
+
+    .temp-2 .text .title .subtitile {
+      margin: 0px;
+      line-height: 0px;
+      margin-top: 5vh;
+      font-size: 1.3em;
+    }
+
+    .temp-2 .text .content {
+      text-align: center;
+      border: #fff solid 2px;
+      width: 41vw;
+      padding: 40px;
+      padding-top: 1.2vh;
+      background-color: #fff;
+      -webkit-box-shadow: 0 0 8px gray;
+      box-shadow: 0 0 8px gray;
+      margin-left: 17vw;
+      margin-top: 8.8vh;
+      border-radius: 6px;
+    }
+
+    .temp-2 .text .content h2 {
+      font-size: 1.9em;
+      padding: 0px;
+      text-align: center;
+    }
+
+    .temp-2 .text .content h3 {
+      text-align: left;
+      line-height: 4vh;
+      font-size: 1.1rem;
+      text-align: left;
+    }
+
+    .temp-2 .text .content h3 .making {
+      font-size: 1.1em;
+      position: relative;
+      display: inline-block;
+      text-decoration: none;
+      color: #000000;
+    }
+
+    .temp-2 .text .content h3 .making::after {
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      content: "";
+      width: 100%;
+      height: 0.2vh;
+      background: #5b5757;
+      -webkit-transform: scale(0, 1);
+      transform: scale(0, 1);
+      -webkit-transform-origin: center top;
+      transform-origin: center top;
+      -webkit-transition: -webkit-transform 0.3s;
+      transition: -webkit-transform 0.3s;
+      transition: transform 0.3s;
+      transition: transform 0.3s, -webkit-transform 0.3s;
+    }
+
+    .temp-2 .text .content h3 .making:hover::after {
+      -webkit-transform: scale(1, 1);
+      transform: scale(1, 1);
+    }
+
+    .temp-3 {
+      padding-top: 12.6vh;
+      padding-bottom: 12.6vh;
+    }
+
+    .temp-3 .text {
+      margin-left: 8.3vw;
+      background-color: #155a83;
+      padding-bottom: 7.6vw;
+      width: 91.6vw;
+      border-radius: 10px 0px 0px 10px;
+    }
+
+    .temp-3 .text .title {
+      padding-top: 12.6vh;
+      margin-top: 12.6vh;
+      margin-left: 13.8vw;
+      color: #ffffff;
+    }
+
+    .temp-3 .text .title h2 {
+      font-size: 4.4em;
+      margin: 0px;
+      margin-bottom: 6.3vh;
+      line-height: 0px;
+      letter-spacing: 10px;
+    }
+
+    .temp-3 .text .title .subtitile {
+      margin: 0px;
+      line-height: 0px;
+      margin-top: 5vh;
+      font-size: 1.3em;
+    }
+
+    .temp-3 .text .content {
+      text-align: center;
+      border: #fff solid 2px;
+      width: 41.6vw;
+      padding: 40px;
+      padding-top: 1.2vh;
+      background-color: #fff;
+      -webkit-box-shadow: 0 0 8px gray;
+      box-shadow: 0 0 8px gray;
+      margin-left: 13.8vw;
+      margin-top: 8.8vh;
+      border-radius: 6px;
+    }
+
+    .temp-3 .text .content h2 {
+      font-size: 1.9em;
+      padding: 0px;
+      text-align: center;
+    }
+
+    .temp-3 .text .content h3 {
+      text-align: left;
+      line-height: 4vh;
+      font-size: 1.1em;
+    }
+
+    .temp-3 .text .content h3 .making {
+      font-size: 1.1em;
+      position: relative;
+      display: inline-block;
+      text-decoration: none;
+      color: black;
+    }
+
+    .temp-3 .text .content h3 .making::after {
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      content: "";
+      width: 100%;
+      height: 0.2vh;
+      background: #5b5757;
+      -webkit-transform: scale(0, 1);
+      transform: scale(0, 1);
+      -webkit-transform-origin: center top;
+      transform-origin: center top;
+      -webkit-transition: -webkit-transform 0.3s;
+      transition: -webkit-transform 0.3s;
+      transition: transform 0.3s;
+      transition: transform 0.3s, -webkit-transform 0.3s;
+    }
+
+    .temp-3 .text .content h3 .making:hover::after {
+      -webkit-transform: scale(1, 1);
+      transform: scale(1, 1);
+    }
+
+    .temp-4 {
+      padding-top: 12.6vh;
+      padding-bottom: 12.6vh;
+    }
+
+    .temp-4 .text {
+      background-color: #5acdc2;
+      padding-bottom: 7.6vh;
+      width: 72.2vw;
+      border-radius: 0px 10px 10px 0px;
+    }
+
+    .temp-4 .text .title {
+      padding-top: 12.6vh;
+      margin-top: 12.6vh;
+      margin-left: 34.7vw;
+      color: #ffffff;
+    }
+
+    .temp-4 .text .title h2 {
+      font-size: 4.4em;
+      margin: 0px;
+      margin-bottom: 6.3vh;
+      line-height: 0px;
+      letter-spacing: 10px;
+    }
+
+    .temp-4 .text .title .subtitile {
+      margin: 0px;
+      line-height: 0px;
+      margin-top: 7.6vh;
+      font-size: 1em;
+    }
+
+    .temp-4 .text .content {
+      text-align: center;
+      border: #fff solid 2px;
+      width: 41.6vw;
+      padding: 40px;
+      padding-top: 1.2vh;
+      background-color: #fff;
+      -webkit-box-shadow: 0 0 8px gray;
+      box-shadow: 0 0 8px gray;
+      margin-left: 17.3vw;
+      margin-top: 8.8vw;
+      border-radius: 6px;
+    }
+
+    .temp-4 .text .content h2 {
+      font-size: 1.5em;
+      padding: 0px;
+      text-align: center;
+    }
+
+    .temp-4 .text .content h3 {
+      text-align: left;
+      line-height: 4vh;
+      font-size: 1.1em;
+    }
+
+    .temp-4 .text form {
+      text-align: right;
+      margin-left: 17.3vw;
+    }
+
+    .temp-4 .text form .justification {
+      -webkit-box-align: start;
       -ms-flex-align: start;
-          align-items: flex-start;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
+      align-items: flex-start;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
 
-.temp-4 .text form .justification p {
-  font-size: 1.9em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
+    .temp-4 .text form .justification p {
+      font-size: 1.9em;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
 
-.temp-4 .text form .justification .form-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  outline: 0;
-  background-color: #ffffff;
-  border-width: 0px;
-  border-style: none;
-  font-size: 1.1em;
-  width: 41.6vw;
-  margin-top: 6.9vh;
-  height: 25vh;
-}
+    .temp-4 .text form .justification .form-text {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      outline: 0;
+      background-color: #ffffff;
+      border-width: 0px;
+      border-style: none;
+      font-size: 1.1em;
+      width: 41.6vw;
+      margin-top: 6.9vh;
+      height: 25vh;
+    }
 
-.temp-4 .text form .form-go {
-  display: inline-block;
-  padding: 0.6em 2em;
-  margin: 0 0 1em;
-  background: #fff;
-  border: 0px solid #333;
-  color: #333;
-  cursor: pointer;
-  -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  font-family: fot-tsukuardgothic-std, sans-serif;
-  font-weight: 600;
-  margin-right: 8.3vw;
-}
+    .temp-4 .text form .form-go {
+      display: inline-block;
+      padding: 0.6em 2em;
+      margin: 0 0 1em;
+      background: #fff;
+      border: 0px solid #333;
+      color: #333;
+      cursor: pointer;
+      -webkit-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s;
+      font-family: fot-tsukuardgothic-std, sans-serif;
+      font-weight: 600;
+      margin-right: 8.3vw;
+    }
 
-.temp-4 .text form .form-go:hover {
-  background: #333;
-  color: #fff;
-}
+    .temp-4 .text form .form-go:hover {
+      background: #333;
+      color: #fff;
+    }
 
-.temp-4 .text .answer {
-  margin-left: 17.3vw;
-  margin-right: 8.3vw;
-  border: 0px solid black;
-  border-radius: 6px;
-  margin-top: 7.6vh;
-  margin-bottom: 7.6vh;
-  background-color: white;
-  padding: 20px;
-}
+    .temp-4 .text .answer {
+      margin-left: 17.3vw;
+      margin-right: 8.3vw;
+      border: 0px solid black;
+      border-radius: 6px;
+      margin-top: 7.6vh;
+      margin-bottom: 7.6vh;
+      background-color: white;
+      padding: 20px;
+    }
 
-.temp-4 .text .answer .q {
-  font-size: 1.1em;
-  padding: 0px;
-}
+    .temp-4 .text .answer .q {
+      font-size: 1.1em;
+      padding: 0px;
+    }
 
-.temp-4 .text .answer .q .big {
-  font-size: 1.6em;
-  margin: 5px;
-  font-weight: 300;
-}
+    .temp-4 .text .answer .q .big {
+      font-size: 1.6em;
+      margin: 5px;
+      font-weight: 300;
+    }
 
-.temp-4 .text .answer .a {
-  font-size: 1.1em;
-  padding: 0px;
-}
+    .temp-4 .text .answer .a {
+      font-size: 1.1em;
+      padding: 0px;
+    }
 
-.temp-4 .text .answer .a .big {
-  font-size: 1.6em;
-  margin: 5px;
-  font-weight: 300;
-}
+    .temp-4 .text .answer .a .big {
+      font-size: 1.6em;
+      margin: 5px;
+      font-weight: 300;
+    }
 
-.temp-5 {
-  padding-top: 12.6vh;
-  padding-bottom: 12.6vh;
-}
+    .temp-5 {
+      padding-top: 12.6vh;
+      padding-bottom: 12.6vh;
+    }
 
-.temp-5 .text {
-  background-color: #155a83;
-  padding-bottom: 7.6vh;
-  width: 72vw;
-  border-radius: 0px 10px 10px 0px;
-}
+    .temp-5 .text {
+      background-color: #155a83;
+      padding-bottom: 7.6vh;
+      width: 72vw;
+      border-radius: 0px 10px 10px 0px;
+    }
 
-.temp-5 .text .title {
-  padding-top: 12.6vh;
-  margin-top: 12.6vh;
-  margin-left: 15.3vw;
-  color: #ffffff;
-}
+    .temp-5 .text .title {
+      padding-top: 12.6vh;
+      margin-top: 12.6vh;
+      margin-left: 15.3vw;
+      color: #ffffff;
+    }
 
-.temp-5 .text .title h2 {
-  font-size: 4.4em;
-  margin: 0px;
-  margin-bottom: 6.3vh;
-  line-height: 0px;
-  letter-spacing: 10px;
-}
+    .temp-5 .text .title h2 {
+      font-size: 4.4em;
+      margin: 0px;
+      margin-bottom: 6.3vh;
+      line-height: 0px;
+      letter-spacing: 10px;
+    }
 
-.temp-5 .text .title .subtitile {
-  margin: 0px;
-  line-height: 0px;
-  margin-top: 5vh;
-  font-size: 1.3em;
-}
+    .temp-5 .text .title .subtitile {
+      margin: 0px;
+      line-height: 0px;
+      margin-top: 5vh;
+      font-size: 1.3em;
+    }
 
-.temp-5 .text .add {
-  margin: 0px;
-  padding: 0px;
-  margin-left: 15.3vw;
-  margin-top: 12.6vh;
-}
+    .temp-5 .text .add {
+      margin: 0px;
+      padding: 0px;
+      margin-left: 15.3vw;
+      margin-top: 12.6vh;
+    }
 
-.temp-5 .text .add h3 {
-  color: #ffffff;
-  font-size: 1.3em;
-  line-height: 5vh;
-}
-/*# sourceMappingURL=Mein.css.map */
+    .temp-5 .text .add h3 {
+      color: #ffffff;
+      font-size: 1.3em;
+      line-height: 5vh;
+    }
+
+    /*# sourceMappingURL=Mein.css.map */
   </style>
   <style>
     @media (max-width: 420px) {
-  body,
-  html {
-    width: 100%;
-    scroll-behavior: smooth;
-  }
-  body .top,
-  html .top {
-    height: 50%;
-  }
-  body .top nav ul,
-  html .top nav ul {
-    display: none;
-  }
-  body header svg,
-  html header svg {
-    width: 95%;
-    margin: 0;
-  }
-  body header .number,
-  html header .number {
-    display: none;
-  }
-  body .temp-1,
-  html .temp-1 {
-    margin-top: 0;
-    margin-bottom: 0px;
-    padding: 0px;
-  }
-  body .temp-1 .text,
-  html .temp-1 .text {
-    margin: 0%;
-    width: 100%;
-    border-radius: 6px;
-  }
-  body .temp-1 .text .title h2,
-  html .temp-1 .text .title h2 {
-    font-size: 50px;
-  }
-  body .temp-1 .text .content,
-  html .temp-1 .text .content {
-    margin-left: 8.5vw;
-    margin-right: 8.5vw;
-    width: 73vw;
-    padding: 18px;
-  }
-  body .temp-1 .text .content h2,
-  html .temp-1 .text .content h2 {
-    font-size: 19px;
-  }
-  body .temp-1 .text .content h3,
-  html .temp-1 .text .content h3 {
-    font-size: 13px;
-    line-height: 20px;
-  }
-  body .temp-2,
-  html .temp-2 {
-    padding: 0px;
-    margin-bottom: 0px;
-    margin-top: 0;
-  }
-  body .temp-2 .text,
-  html .temp-2 .text {
-    margin: 0%;
-    width: 100%;
-    border-radius: 6px;
-  }
-  body .temp-2 .text .title,
-  html .temp-2 .text .title {
-    margin-left: 13.8vw;
-  }
-  body .temp-2 .text .title h2,
-  html .temp-2 .text .title h2 {
-    font-size: 50px;
-  }
-  body .temp-2 .text .content,
-  html .temp-2 .text .content {
-    margin-left: 8.5vw;
-    margin-right: 8.5vw;
-    width: 73vw;
-    padding: 18px;
-  }
-  body .temp-2 .text .content h2,
-  html .temp-2 .text .content h2 {
-    font-size: 19px;
-  }
-  body .temp-2 .text .content h3,
-  html .temp-2 .text .content h3 {
-    font-size: 13px;
-    line-height: 20px;
-  }
-  body .temp-3,
-  html .temp-3 {
-    padding: 0px;
-    margin-bottom: 0px;
-    margin-top: 0;
-  }
-  body .temp-3 .text,
-  html .temp-3 .text {
-    margin: 0%;
-    width: 100%;
-    border-radius: 6px;
-  }
-  body .temp-3 .text .title,
-  html .temp-3 .text .title {
-    margin-left: 13.8vw;
-  }
-  body .temp-3 .text .title h2,
-  html .temp-3 .text .title h2 {
-    font-size: 50px;
-  }
-  body .temp-3 .text .content,
-  html .temp-3 .text .content {
-    margin-left: 8.5vw;
-    margin-right: 8.5vw;
-    width: 73vw;
-    padding: 18px;
-  }
-  body .temp-3 .text .content h2,
-  html .temp-3 .text .content h2 {
-    font-size: 19px;
-  }
-  body .temp-3 .text .content h3,
-  html .temp-3 .text .content h3 {
-    font-size: 13px;
-    line-height: 20px;
-  }
-  .temp-4 {
-    padding: 0px;
-    margin-bottom: 0px;
-    margin-top: 0;
-  }
-  .temp-4 .text {
-    margin: 0%;
-    width: 100%;
-    border-radius: 6px;
-  }
-  .temp-4 .text .title {
-    margin-left: 13.8vw;
-  }
-  .temp-4 .text .title h2 {
-    font-size: 50px;
-  }
-  .temp-4 .text .content {
-    margin-left: 8.5vw;
-    margin-right: 8.5vw;
-    width: 73vw;
-    padding: 18px;
-  }
-  .temp-4 .text .content h2 {
-    font-size: 19px;
-  }
-  .temp-4 .text .content h3 {
-    font-size: 13px;
-    line-height: 20px;
-  }
-  .temp-4 .text form {
-    margin: 0px;
-    margin-left: 8.5vw;
-    margin-right: 8.5vw;
-  }
-  .temp-4 .text form .justification {
-    margin: 0px;
-    width: 83vw;
-  }
-  .temp-4 .text form .justification .form-text {
-    width: 63vw;
-  }
-  .temp-4 .text .answer {
-    margin-left: 8.5vw;
-    margin-right: 8.5vw;
-    width: 73vw;
-  }
-  .temp-5 {
-    padding: 0px;
-    margin-top: 0;
-  }
-  .temp-5 .text {
-    margin: 0%;
-    width: 100%;
-    border-radius: 6px;
-  }
-  .temp-5 .text .title {
-    margin-left: 13.8vw;
-  }
-  .temp-5 .text .title h2 {
-    font-size: 30px;
-    letter-spacing: 4px;
-  }
-  .temp-5 .text .content {
-    margin-left: 8.5vw;
-    margin-right: 8.5vw;
-    width: 73vw;
-    padding: 18px;
-  }
-  .temp-5 .text .content h2 {
-    font-size: 19px;
-  }
-  .temp-5 .text .content h3 {
-    font-size: 13px;
-    line-height: 20px;
-  }
-}
-/*# sourceMappingURL=Main_Short.css.map */
+
+      body,
+      html {
+        width: 100%;
+        scroll-behavior: smooth;
+      }
+
+      body .top,
+      html .top {
+        height: 50%;
+      }
+
+      body .top nav ul,
+      html .top nav ul {
+        display: none;
+      }
+
+      body header svg,
+      html header svg {
+        width: 95%;
+        margin: 0;
+      }
+
+      body header .number,
+      html header .number {
+        display: none;
+      }
+
+      body .temp-1,
+      html .temp-1 {
+        margin-top: 0;
+        margin-bottom: 0px;
+        padding: 0px;
+      }
+
+      body .temp-1 .text,
+      html .temp-1 .text {
+        margin: 0%;
+        width: 100%;
+        border-radius: 6px;
+      }
+
+      body .temp-1 .text .title h2,
+      html .temp-1 .text .title h2 {
+        font-size: 50px;
+      }
+
+      body .temp-1 .text .content,
+      html .temp-1 .text .content {
+        margin-left: 8.5vw;
+        margin-right: 8.5vw;
+        width: 73vw;
+        padding: 18px;
+      }
+
+      body .temp-1 .text .content h2,
+      html .temp-1 .text .content h2 {
+        font-size: 19px;
+      }
+
+      body .temp-1 .text .content h3,
+      html .temp-1 .text .content h3 {
+        font-size: 13px;
+        line-height: 20px;
+      }
+
+      body .temp-2,
+      html .temp-2 {
+        padding: 0px;
+        margin-bottom: 0px;
+        margin-top: 0;
+      }
+
+      body .temp-2 .text,
+      html .temp-2 .text {
+        margin: 0%;
+        width: 100%;
+        border-radius: 6px;
+      }
+
+      body .temp-2 .text .title,
+      html .temp-2 .text .title {
+        margin-left: 13.8vw;
+      }
+
+      body .temp-2 .text .title h2,
+      html .temp-2 .text .title h2 {
+        font-size: 50px;
+      }
+
+      body .temp-2 .text .content,
+      html .temp-2 .text .content {
+        margin-left: 8.5vw;
+        margin-right: 8.5vw;
+        width: 73vw;
+        padding: 18px;
+      }
+
+      body .temp-2 .text .content h2,
+      html .temp-2 .text .content h2 {
+        font-size: 19px;
+      }
+
+      body .temp-2 .text .content h3,
+      html .temp-2 .text .content h3 {
+        font-size: 13px;
+        line-height: 20px;
+      }
+
+      body .temp-3,
+      html .temp-3 {
+        padding: 0px;
+        margin-bottom: 0px;
+        margin-top: 0;
+      }
+
+      body .temp-3 .text,
+      html .temp-3 .text {
+        margin: 0%;
+        width: 100%;
+        border-radius: 6px;
+      }
+
+      body .temp-3 .text .title,
+      html .temp-3 .text .title {
+        margin-left: 13.8vw;
+      }
+
+      body .temp-3 .text .title h2,
+      html .temp-3 .text .title h2 {
+        font-size: 50px;
+      }
+
+      body .temp-3 .text .content,
+      html .temp-3 .text .content {
+        margin-left: 8.5vw;
+        margin-right: 8.5vw;
+        width: 73vw;
+        padding: 18px;
+      }
+
+      body .temp-3 .text .content h2,
+      html .temp-3 .text .content h2 {
+        font-size: 19px;
+      }
+
+      body .temp-3 .text .content h3,
+      html .temp-3 .text .content h3 {
+        font-size: 13px;
+        line-height: 20px;
+      }
+
+      .temp-4 {
+        padding: 0px;
+        margin-bottom: 0px;
+        margin-top: 0;
+      }
+
+      .temp-4 .text {
+        margin: 0%;
+        width: 100%;
+        border-radius: 6px;
+      }
+
+      .temp-4 .text .title {
+        margin-left: 13.8vw;
+      }
+
+      .temp-4 .text .title h2 {
+        font-size: 50px;
+      }
+
+      .temp-4 .text .content {
+        margin-left: 8.5vw;
+        margin-right: 8.5vw;
+        width: 73vw;
+        padding: 18px;
+      }
+
+      .temp-4 .text .content h2 {
+        font-size: 19px;
+      }
+
+      .temp-4 .text .content h3 {
+        font-size: 13px;
+        line-height: 20px;
+      }
+
+      .temp-4 .text form {
+        margin: 0px;
+        margin-left: 8.5vw;
+        margin-right: 8.5vw;
+      }
+
+      .temp-4 .text form .justification {
+        margin: 0px;
+        width: 83vw;
+      }
+
+      .temp-4 .text form .justification .form-text {
+        width: 63vw;
+      }
+
+      .temp-4 .text .answer {
+        margin-left: 8.5vw;
+        margin-right: 8.5vw;
+        width: 73vw;
+      }
+
+      .temp-5 {
+        padding: 0px;
+        margin-top: 0;
+      }
+
+      .temp-5 .text {
+        margin: 0%;
+        width: 100%;
+        border-radius: 6px;
+      }
+
+      .temp-5 .text .title {
+        margin-left: 13.8vw;
+      }
+
+      .temp-5 .text .title h2 {
+        font-size: 30px;
+        letter-spacing: 4px;
+      }
+
+      .temp-5 .text .content {
+        margin-left: 8.5vw;
+        margin-right: 8.5vw;
+        width: 73vw;
+        padding: 18px;
+      }
+
+      .temp-5 .text .content h2 {
+        font-size: 19px;
+      }
+
+      .temp-5 .text .content h3 {
+        font-size: 13px;
+        line-height: 20px;
+      }
+    }
+
+    /*# sourceMappingURL=Main_Short.css.map */
   </style>
   <div class="top">
     <nav>
       <div class="left">
-        <a href="https://ictroom.github.io/KEYAKI2020/"><img src="img/ICTRoom_Rogo.png" alt="ICTRoom" width="50px" height="50px" /></a>
+        <a href="https://ictroom.github.io/KEYAKI2020/"><img src="img/ICTRoom_Rogo.png" alt="ICTRoom" width="50px"
+            height="50px" /></a>
       </div>
       <ul>
         <li><a href="#about">ABOUT</a></li>
@@ -2616,6 +2582,7 @@ header .number .share .botton .btn_email:hover {
         <li><a href="#machine">MACHINE</a></li>
         <li><a href="#qa">Q&A</a></li>
         <li><a href="#footer">INFORMATION</a></li>
+        <li><a href="show.html">作品紹介ページ</a></li>
       </ul>
     </nav>
     <header>
@@ -2786,22 +2753,21 @@ header .number .share .botton .btn_email:hover {
             </div>
           </div>
           <div class="number-all">
-            <div class="realtimeuserscounter" style="display: inline-block; _display: inline"></div>
             <p class="number_title" style="display: inline-block; _display: inline">
-              人が閲覧中
+              <span style="font-size: 26px;">10</span>人が閲覧中
             </p>
           </div>
           <div class="share">
             <div class="botton">
-              <a class="sns_btn btn_facebook" href="#" rel="author">
+              <a class="sns_btn btn_facebook"
+                href="https://www.facebook.com/sharer/sharer.php?u=https://ictroom.github.io/KEYAKI2020/" rel="author">
                 <i class="fa fa-facebook"></i>
               </a>
-              <a class="sns_btn btn_twitter" href="https://twitter.com/intent/tweet?
-              text={広尾学園ICTRoomけやき祭特設サイト}&
-              url={未設定}" target="_blank" rel="nofollow noopener noreferrer" rel="author">
+              <a class="sns_btn btn_twitter" href="https://twitter.com/hgkeyakifes2019" target="_blank"
+                rel="nofollow noopener noreferrer" rel="author">
                 <i class="fa fa-twitter"></i>
               </a>
-              <a class="sns_btn btn_email" href="#" rel="author">
+              <a class="sns_btn btn_email" href="ictroom@hiroogakuen.com" rel="author">
                 <i class="fa fa-envelope"></i>
               </a>
             </div>
@@ -2950,83 +2916,60 @@ header .number .share .botton .btn_email:hover {
   </section>
   <script>
     //時刻制御
-timerID = setInterval("clock()", 500); //0.5秒毎にclock()を実行
-function clock() {
-  document.getElementById("view_clock").innerHTML = getNow();
-}
-
-function getNow() {
-  var now = new Date();
-  var year = now.getFullYear();
-  var mon = now.getMonth() + 1; //１を足すこと
-  var day = now.getDate();
-  var hour = now.getHours();
-  var min = now.getMinutes();
-  var sec = now.getSeconds();
-  //if
-  if (mon == 8) {
-    var title = "けやき祭まで";
-    var whole = Number(31 * 24 * 60 * 60 + 34 * 24 * 60 * 60 + 9.5 * 60 * 60);
-    var time = Number(day * 24 * 60 * 60 + hour * 60 * 60 + min * 60 + sec);
-    var day_now = Math.floor((whole - time) / (24 * 60 * 60));
-    var hour_now = Math.floor(((whole - time) % (24 * 60 * 60)) / (60 * 60));
-    var min_now = Math.floor(
-      (((whole - time) % (24 * 60 * 60)) % (60 * 60)) / 60
-    );
-    var sec_now = Math.floor(
-      (((whole - time) % (24 * 60 * 60)) % (60 * 60)) % 60
-    );
-    if (sec >= 51 || sec==0) {
-      var zero = 0;
-    } else {
-      var zero = "";
+    timerID = setInterval("clock()", 500); //0.5秒毎にclock()を実行
+    function clock() {
+      document.getElementById("view_clock").innerHTML = getNow();
     }
-  } else {
-    if (mon <= 9) {
-      var title = "けやき祭まで";
-      var whole = Number(33 * 24 * 60 * 60 + 9.5 * 60 * 60);
-      var time = Number(day * 24 * 60 * 60 + hour * 60 * 60 + min * 60 + sec);
-      var day_now = Math.floor((whole - time) / (24 * 60 * 60));
-      var hour_now = Math.floor(((whole - time) % (24 * 60 * 60)) / (60 * 60));
-      var min_now = Math.floor(
-        (((whole - time) % (24 * 60 * 60)) % (60 * 60)) / 60
-      );
-      var sec_now = Math.floor(
-        (((whole - time) % (24 * 60 * 60)) % (60 * 60)) % 60
-      );
-      if (sec >= 51 || sec==0) {
-        var zero = 0;
+
+    function getNow() {
+      var now = new Date();
+      var year = now.getFullYear();
+      var mon = now.getMonth() + 1; //１を足すこと
+      var day = now.getDate();
+      var hour = now.getHours();
+      var min = now.getMinutes();
+      var sec = now.getSeconds();
+      //if
+      if (mon == 8) {
+        var title = "けやき祭まで";
+        var whole = Number(31 * 24 * 60 * 60 + 34 * 24 * 60 * 60 + 9.5 * 60 * 60);
+        var time = Number(day * 24 * 60 * 60 + hour * 60 * 60 + min * 60 + sec);
+        var day_now = Math.floor((whole - time) / (24 * 60 * 60));
+        var hour_now = Math.floor(((whole - time) % (24 * 60 * 60)) / (60 * 60));
+        var min_now = Math.floor(
+          (((whole - time) % (24 * 60 * 60)) % (60 * 60)) / 60
+        );
+        var sec_now = Math.floor(
+          (((whole - time) % (24 * 60 * 60)) % (60 * 60)) % 60
+        );
+        if (sec >= 51 || sec == 0) {
+          var zero = 0;
+        } else {
+          var zero = "";
+        }
       } else {
-        var zero = "";
-      }
-    } else {
-      if ((mon = 10)) {
-        if (day <= 2) {
+        if (mon <= 9) {
           var title = "けやき祭まで";
-          var whole = Number(3 * 24 * 60 * 60 + 9.5 * 60 * 60);
-          var time = Number(
-            day * 24 * 60 * 60 + hour * 60 * 60 + min * 60 + sec
-          );
+          var whole = Number(33 * 24 * 60 * 60 + 9.5 * 60 * 60);
+          var time = Number(day * 24 * 60 * 60 + hour * 60 * 60 + min * 60 + sec);
           var day_now = Math.floor((whole - time) / (24 * 60 * 60));
-          var hour_now = Math.floor(
-            ((whole - time) % (24 * 60 * 60)) / (60 * 60)
-          );
+          var hour_now = Math.floor(((whole - time) % (24 * 60 * 60)) / (60 * 60));
           var min_now = Math.floor(
             (((whole - time) % (24 * 60 * 60)) % (60 * 60)) / 60
           );
           var sec_now = Math.floor(
             (((whole - time) % (24 * 60 * 60)) % (60 * 60)) % 60
           );
-          if (sec >= 51 || sec==0) {
+          if (sec >= 51 || sec == 0) {
             var zero = 0;
           } else {
             var zero = "";
           }
         } else {
-          if (day == 3) {
-            if (hour < 9) {
+          if ((mon = 10)) {
+            if (day <= 2) {
               var title = "けやき祭まで";
-              var whole = Number(9 * 60 * 60);
+              var whole = Number(3 * 24 * 60 * 60 + 9.5 * 60 * 60);
               var time = Number(
                 day * 24 * 60 * 60 + hour * 60 * 60 + min * 60 + sec
               );
@@ -3040,91 +2983,114 @@ function getNow() {
               var sec_now = Math.floor(
                 (((whole - time) % (24 * 60 * 60)) % (60 * 60)) % 60
               );
-              if (sec >= 51 || sec==0) {
+              if (sec >= 51 || sec == 0) {
                 var zero = 0;
               } else {
                 var zero = "";
               }
             } else {
-              var title = "けやき祭終了まで";
-              var whole = Number(15 * 60 * 60 + 15 * 60 * 60);
-              var time = Number(hour * 60 * 60 + min * 60 + sec);
-              var day_now = 1;
-              var hour_now = Math.floor(
-                ((whole - time) % (24 * 60 * 60)) / (60 * 60)
-              );
-              var min_now = Math.floor(
-                (((whole - time) % (24 * 60 * 60)) % (60 * 60)) / 60
-              );
-              var sec_now = Math.floor(
-                (((whole - time) % (24 * 60 * 60)) % (60 * 60)) % 60
-              );
-              if (sec >= 51 || sec==0) {
-                var zero = 0;
+              if (day == 3) {
+                if (hour < 9) {
+                  var title = "けやき祭まで";
+                  var whole = Number(9 * 60 * 60);
+                  var time = Number(
+                    day * 24 * 60 * 60 + hour * 60 * 60 + min * 60 + sec
+                  );
+                  var day_now = Math.floor((whole - time) / (24 * 60 * 60));
+                  var hour_now = Math.floor(
+                    ((whole - time) % (24 * 60 * 60)) / (60 * 60)
+                  );
+                  var min_now = Math.floor(
+                    (((whole - time) % (24 * 60 * 60)) % (60 * 60)) / 60
+                  );
+                  var sec_now = Math.floor(
+                    (((whole - time) % (24 * 60 * 60)) % (60 * 60)) % 60
+                  );
+                  if (sec >= 51 || sec == 0) {
+                    var zero = 0;
+                  } else {
+                    var zero = "";
+                  }
+                } else {
+                  var title = "けやき祭終了まで";
+                  var whole = Number(15 * 60 * 60 + 15 * 60 * 60);
+                  var time = Number(hour * 60 * 60 + min * 60 + sec);
+                  var day_now = 1;
+                  var hour_now = Math.floor(
+                    ((whole - time) % (24 * 60 * 60)) / (60 * 60)
+                  );
+                  var min_now = Math.floor(
+                    (((whole - time) % (24 * 60 * 60)) % (60 * 60)) / 60
+                  );
+                  var sec_now = Math.floor(
+                    (((whole - time) % (24 * 60 * 60)) % (60 * 60)) % 60
+                  );
+                  if (sec >= 51 || sec == 0) {
+                    var zero = 0;
+                  } else {
+                    var zero = "";
+                  }
+                }
               } else {
-                var zero = "";
+                if (day == 4) {
+                  if (hour <= 15) {
+                    var title = "けやき祭終了まで";
+                    var whole = Number(15 * 60 * 60);
+                    var time = Number(hour * 60 * 60 + min * 60 + sec);
+                    var day_now = "0";
+                    var hour_now = Math.floor(
+                      ((whole - time) % (24 * 60 * 60)) / (60 * 60)
+                    );
+                    var min_now = Math.floor(
+                      (((whole - time) % (24 * 60 * 60)) % (60 * 60)) / 60
+                    );
+                    var sec_now = Math.floor(
+                      (((whole - time) % (24 * 60 * 60)) % (60 * 60)) % 60
+                    );
+                    if (sec >= 51 || sec == 0) {
+                      var zero = 0;
+                    } else {
+                      var zero = "";
+                    }
+                  } else {
+                    var title = "けやき祭終了";
+                    var day_now = "";
+                    var hour_now = "";
+                    var min_now = "";
+                    var sec_now = "";
+                    var zero = "";
+                    $(".unit").text("");
+                  }
+                } else {
+                  var title = "けやき祭終了";
+                  var day_now = "";
+                  var hour_now = "";
+                  var min_now = "";
+                  var sec_now = "";
+                  var zero = "";
+                  $(".unit").text("");
+                }
               }
             }
           } else {
-            if (day == 4) {
-              if (hour <= 15) {
-                var title = "けやき祭終了まで";
-                var whole = Number(15 * 60 * 60);
-                var time = Number(hour * 60 * 60 + min * 60 + sec);
-                var day_now = "0";
-                var hour_now = Math.floor(
-                  ((whole - time) % (24 * 60 * 60)) / (60 * 60)
-                );
-                var min_now = Math.floor(
-                  (((whole - time) % (24 * 60 * 60)) % (60 * 60)) / 60
-                );
-                var sec_now = Math.floor(
-                  (((whole - time) % (24 * 60 * 60)) % (60 * 60)) % 60
-                );
-                if (sec >= 51 || sec==0) {
-                  var zero = 0;
-                } else {
-                  var zero = "";
-                }
-              } else {
-                var title = "けやき祭終了";
-                var day_now = "";
-                var hour_now = "";
-                var min_now = "";
-                var sec_now = "";
-                var zero = "";
-                $(".unit").text("");
-              }
-            } else {
-              var title = "けやき祭終了";
-              var day_now = "";
-              var hour_now = "";
-              var min_now = "";
-              var sec_now = "";
-              var zero = "";
-              $(".unit").text("");
-            }
+            var title = "2020けやき祭終了";
+            var day_now = "";
+            var hour_now = "";
+            var min_now = "";
+            var sec_now = "";
+            var zero = "";
+            $(".unit").text("");
           }
         }
-      } else {
-        var title = "2020けやき祭終了";
-        var day_now = "";
-        var hour_now = "";
-        var min_now = "";
-        var sec_now = "";
-        var zero = "";
-        $(".unit").text("");
       }
+      $(".time_title").text(title);
+      //$(".time").text(`${day_now}日${hour_now}時間${min_now}分${sec_now}秒`);
+      //$(".time").text(`${day}日${hour}時${min}分${sec}秒`)
+      $(".day").text(day_now);
+      $(".hour").text(hour_now);
+      $(".min").text(min_now);
+      $(".sec").text(`${zero}${sec_now}`);
     }
-  }
-  $(".time_title").text(title);
-  //$(".time").text(`${day_now}日${hour_now}時間${min_now}分${sec_now}秒`);
-  //$(".time").text(`${day}日${hour}時${min}分${sec}秒`)
-  $(".day").text(day_now);
-  $(".hour").text(hour_now);
-  $(".min").text(min_now);
-  $(".sec").text(`${zero}${sec_now}`);
-}
   </script>
   <script>
     /*
@@ -3132,30 +3098,30 @@ The software is provided "as is", without warranty of any kind, express or impli
 In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software. 
 Repeated abuse of this service will result in the removal of your website.
 */
-function RealTimeUsers(){
+    function RealTimeUsers() {
 
-  var _baseUrl = 'https://realtimeusers.bycontrast.co/';
-  var _counters = document.getElementsByClassName("realtimeuserscounter");
-  var _token = '';
+      var _baseUrl = 'https://realtimeusers.bycontrast.co/';
+      var _counters = document.getElementsByClassName("realtimeuserscounter");
+      var _token = '';
 
-  var _init = function(){
-      _initElement();
-      _setStyles();
-      _initToken();
-      _track();
-      _startStatsLoop();
-  };
+      var _init = function () {
+        _initElement();
+        _setStyles();
+        _initToken();
+        _track();
+        _startStatsLoop();
+      };
 
-  var _initElement = function() {
-      var inner = `<div class="realtimeuserscounter__num">&mdash;</div>`;
+      var _initElement = function () {
+        var inner = `<div class="realtimeuserscounter__num">&mdash;</div>`;
 
-      Array.prototype.forEach.call(_counters, function(counter) {
-        counter.innerHTML = inner;
-      });
-  };
+        Array.prototype.forEach.call(_counters, function (counter) {
+          counter.innerHTML = inner;
+        });
+      };
 
-  var _setStyles = function() {
-      var css = '\
+      var _setStyles = function () {
+        var css = '\
           .realtimeuserscounter--styled {\
             display: inline-block !important;\
             font-family: Monaco, Courier, "Courier New", monospace !important;\
@@ -3182,126 +3148,120 @@ function RealTimeUsers(){
             color: #333 !important;\
       }',
           head = document.head || document.getElementsByTagName('head')[0],
-        style = document.createElement('style');
+          style = document.createElement('style');
 
-      style.type = 'text/css';
+        style.type = 'text/css';
 
-      if (style.styleSheet) {
+        if (style.styleSheet) {
           style.styleSheet.cssText = css;
-      } else {
+        } else {
           style.appendChild(document.createTextNode(css));
-      }
+        }
 
-      head.appendChild(style);
-  };
+        head.appendChild(style);
+      };
 
-  var _initToken = function(){
-      var token = _getCookie('rtu_token');
-      if(token !== ''){
+      var _initToken = function () {
+        var token = _getCookie('rtu_token');
+        if (token !== '') {
           _token = token;
-      }
-  };
+        }
+      };
 
-  var _getCookie = function(name) {
-      name += "=";
-      var cookies = document.cookie.split(';');
-      for(var i = 0; i < cookies.length; i++) {
+      var _getCookie = function (name) {
+        name += "=";
+        var cookies = document.cookie.split(';');
+        for (var i = 0; i < cookies.length; i++) {
           var cookie = cookies[i];
-          while (cookie.charAt(0)==' ') {
-              cookie = cookie.substring(1);
+          while (cookie.charAt(0) == ' ') {
+            cookie = cookie.substring(1);
           }
           if (cookie.indexOf(name) == 0) {
-              return cookie.substring(name.length,cookie.length);
+            return cookie.substring(name.length, cookie.length);
           }
-      }
-      return "";
-  };
+        }
+        return "";
+      };
 
-  var _setCookie = function(name, value, exdays) {
-      var d = new Date();
-      d.setTime(d.getTime() + (exdays*24*60*60*1000));
-      var expires = "expires="+ d.toUTCString();
-      document.cookie = name + "=" + value + "; " + expires;
-  };
+      var _setCookie = function (name, value, exdays) {
+        var d = new Date();
+        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+        var expires = "expires=" + d.toUTCString();
+        document.cookie = name + "=" + value + "; " + expires;
+      };
 
-  var _track = function(){
-  if(_counters.length > 0){
-    var request = new XMLHttpRequest();
-    request.open('POST', _getTrackUrl());
-    request.onload = function() {
-      if (request.status === 200) {
-        _setCookie('rtu_token', JSON.parse(request.responseText).token, 1);
-      }
-      else if(request.status === 429){
-          console.log('Too Many Requests');
-              }
-      else if (request.status === 420){
-                  document.querySelectorAll('*')
-                      .forEach(function(element){
-                          element.parentNode.removeChild(element)
-                      });
-              }
-      else if (request.status !== 200) {
-        console.log('Request failed.  Returned status of ' + request.status + '.');
-        console.log(request.responseText);
-      }
-    };
-    request.send();
-  }
-  };
+      var _track = function () {
+        if (_counters.length > 0) {
+          var request = new XMLHttpRequest();
+          request.open('POST', _getTrackUrl());
+          request.onload = function () {
+            if (request.status === 200) {
+              _setCookie('rtu_token', JSON.parse(request.responseText).token, 1);
+            } else if (request.status === 429) {
+              console.log('Too Many Requests');
+            } else if (request.status === 420) {
+              document.querySelectorAll('*')
+                .forEach(function (element) {
+                  element.parentNode.removeChild(element)
+                });
+            } else if (request.status !== 200) {
+              console.log('Request failed.  Returned status of ' + request.status + '.');
+              console.log(request.responseText);
+            }
+          };
+          request.send();
+        }
+      };
 
-  var _getTrackUrl = function(){
-      return encodeURI(_baseUrl + 'track/' + _getDomain() + '/' + _token);
-  };
+      var _getTrackUrl = function () {
+        return encodeURI(_baseUrl + 'track/' + _getDomain() + '/' + _token);
+      };
 
-  var _getDomain = function(){
-      return window.location.hostname;
-  };
+      var _getDomain = function () {
+        return window.location.hostname;
+      };
 
-  var _startStatsLoop = function(){
-      setTimeout(_stats, 3000);
-  };
+      var _startStatsLoop = function () {
+        setTimeout(_stats, 3000);
+      };
 
-  var _stats = function(){
-  if(_counters.length > 0){
-    var request = new XMLHttpRequest();
-    request.open('GET', _getStatsUrl());
-    request.onload = function() {
-      if (request.status === 200) {
-        var data = JSON.parse(request.responseText);
+      var _stats = function () {
+        if (_counters.length > 0) {
+          var request = new XMLHttpRequest();
+          request.open('GET', _getStatsUrl());
+          request.onload = function () {
+            if (request.status === 200) {
+              var data = JSON.parse(request.responseText);
 
-        Array.prototype.forEach.call(_counters, function(counter) {
-          var counterNum = counter.getElementsByClassName("realtimeuserscounter__num")[0];
-          counterNum.innerHTML = (data.users == 0) ? 1 : data.users;
-        });
+              Array.prototype.forEach.call(_counters, function (counter) {
+                var counterNum = counter.getElementsByClassName("realtimeuserscounter__num")[0];
+                counterNum.innerHTML = (data.users == 0) ? 1 : data.users;
+              });
 
-      }
-              else if(request.status === 429){
-                  return console.log('Too Many Requests');
-              }
-              else if (request.status === 420){
-                  return document.querySelectorAll('*')
-                      .forEach(function(element){
-                          element.parentNode.removeChild(element)
-                      });
-              }
-      else if (request.status !== 200) {
-        console.log('Request failed.  Returned status of ' + request.status + '.');
-        console.log(request.responseText);
-      }
-      setTimeout(_stats, 20000);
-    };
-    request.send();
-  }
-  };
+            } else if (request.status === 429) {
+              return console.log('Too Many Requests');
+            } else if (request.status === 420) {
+              return document.querySelectorAll('*')
+                .forEach(function (element) {
+                  element.parentNode.removeChild(element)
+                });
+            } else if (request.status !== 200) {
+              console.log('Request failed.  Returned status of ' + request.status + '.');
+              console.log(request.responseText);
+            }
+            setTimeout(_stats, 20000);
+          };
+          request.send();
+        }
+      };
 
-  var _getStatsUrl = function(){
-      return encodeURI(_baseUrl + 'stats/' + _getDomain());
-  };
+      var _getStatsUrl = function () {
+        return encodeURI(_baseUrl + 'stats/' + _getDomain());
+      };
 
-  _init();
-}
-var realtimeusers = new RealTimeUsers();
+      _init();
+    }
+    var realtimeusers = new RealTimeUsers();
   </script>
   <style>
     @media (max-width:420px) {
